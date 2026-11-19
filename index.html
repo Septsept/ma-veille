@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ma veille quotidienne</title>
+  <meta name="description" content="Veille d'actualité quotidienne classée par rubriques, à partir de médias indépendants.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="referrer" content="no-referrer">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="masthead">
+    <div class="wrap">
+      <h1>Ma veille <span>quotidienne</span></h1>
+      <div class="meta">
+        <span id="today"></span>
+        <span id="lastRun">Mise à jour : chargement...</span>
+      </div>
+    </div>
+  </header>
+
+  <nav class="tabs" aria-label="Rubriques">
+    <div class="wrap" role="tablist" id="tablist"></div>
+  </nav>
+
+  <div class="wrap">
+    <div class="toolbar">
+      <div class="seg" role="group" aria-label="Période">
+        <button type="button" data-period="1" aria-pressed="true">Dernière veille</button>
+        <button type="button" data-period="7" aria-pressed="false">7 jours</button>
+        <button type="button" data-period="30" aria-pressed="false">30 jours</button>
+      </div>
+      <label class="search" for="q">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="q" type="search" placeholder="Rechercher un mot, une source..." autocomplete="off">
+      </label>
+    </div>
+  </div>
+
+  <main class="wrap layout">
+    <section id="content" aria-live="polite"><p class="notice">Chargement de la veille...</p></section>
+    <aside><div class="sticky" id="side"></div></aside>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p>Résumés rédigés à partir des sources citées. Les images et articles restent la propriété de leurs médias : chaque titre renvoie vers l'article original.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>
