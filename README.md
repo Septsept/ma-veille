@@ -6,9 +6,10 @@ Veille d'actualité personnelle, mise à jour chaque matin et classée par rubri
 
 ## Fonctionnalités
 
-- Dix rubriques plus une page « À la une » qui reprend les deux informations principales de chacune.
-- Pour chaque article : titre, résumé de une à trois phrases, source, heure de publication, lien vers l'original et image d'aperçu du média.
-- Filtre par période (dernière veille, 7 jours, 30 jours) et recherche plein texte.
+- Thème sombre, menu vertical sur ordinateur et grille de rubriques sur mobile.
+- Page « À la une » : une carte par rubrique avec l'information principale du jour.
+- Pour chaque article : image d'aperçu du média, titre, source, heure et lien vers l'original ; le résumé s'ouvre d'un clic.
+- Filtre par période : aujourd'hui, 7 derniers jours, 30 derniers jours.
 - Un « Le saviez-vous » de culture générale par jour, sourcé.
 - Site statique sans dépendance ni étape de build : HTML, CSS et JavaScript natifs.
 
@@ -41,7 +42,7 @@ Les articles de plus de 30 jours sont retirés du fichier à chaque passage.
 .
 ├── index.html            Page unique du site
 ├── assets/
-│   ├── css/style.css     Styles (thème clair, police Source Sans 3)
+│   ├── css/style.css     Styles (thème sombre, police Source Sans 3)
 │   ├── js/app.js         Chargement des données et rendu
 │   └── img/favicon.svg
 ├── data/

@@ -1,8 +1,7 @@
-/* Ma veille quotidienne : rendu de data/veille.json, sans dépendance. */
+/* Ma veille quotidienne : rendu des données, sans dépendance.
+   Source par défaut : data/veille.json. Une page hôte peut fournir window.VEILLE_SOURCE(onData, onError). */
 (function () {
   "use strict";
-
-  var DATA_URL = "data/veille.json";
 
   var ICONS = {
     une: '<path d="M4 5h13v14H6a2 2 0 0 1-2-2V5Z"/><path d="M17 9h3v8a2 2 0 0 1-2 2"/><path d="M7.5 9h6M7.5 12.5h6M7.5 16h4"/>',
@@ -15,18 +14,19 @@
     economie: '<path d="M3 20h18"/><path d="m4 15 5-5 4 3 7-7"/><path d="M15 6h5v5"/>',
     ecologie: '<path d="M5 19c8 0 14-5 14-14-9 0-14 6-14 14Z"/><path d="M5 19c3-4 6-7 10-9"/>',
     tech: '<rect x="6" y="6" width="12" height="12" rx="2"/><rect x="9.5" y="9.5" width="5" height="5"/><path d="M9 2.5V6M15 2.5V6M9 18v3.5M15 18v3.5M2.5 9H6M2.5 15H6M18 9h3.5M18 15h3.5"/>',
-    savoir: '<path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2V16h5v-.1c0-.8.4-1.5 1-2A6 6 0 0 0 12 3Z"/>'
+    savoir: '<path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2V16h5v-.1c0-.8.4-1.5 1-2A6 6 0 0 0 12 3Z"/>',
+    chev: '<path d="m6 9 6 6 6-6"/>'
   };
-  function icon(k) {
-    return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + (ICONS[k] || ICONS.une) + "</svg>";
+  function icon(k, cls) {
+    return '<svg' + (cls ? ' class="' + cls + '"' : "") + ' viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + (ICONS[k] || ICONS.une) + "</svg>";
   }
 
   var TABS = [
     { key: "une", label: "À la une" },
     { key: "esport", label: "Esport" },
     { key: "football", label: "Football" },
-    { key: "presidentielle", label: "Présidentielle 2027" },
-    { key: "lois", label: "Nouvelles lois" },
+    { key: "presidentielle", label: "Présidentielle" },
+    { key: "lois", label: "Lois" },
     { key: "international", label: "International" },
     { key: "guerres", label: "Guerres" },
     { key: "economie", label: "Économie" },
@@ -37,8 +37,9 @@
   var LABEL = {};
   TABS.forEach(function (t) { LABEL[t.key] = t.label; });
   var KEYS = TABS.map(function (t) { return t.key; });
+  var NOIMG = !!window.VEILLE_NO_IMAGES;
 
-  var state = { tab: "une", period: 1, q: "", data: null, error: null };
+  var state = { tab: "une", period: 1, data: null, error: null };
 
   function esc(s) {
     return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
@@ -46,93 +47,88 @@
     });
   }
   function safeUrl(u) { return /^https:\/\//i.test(u || "") ? u : null; }
-  function norm(s) { return String(s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, ""); }
   function cap(s) { return s.charAt(0).toUpperCase() + s.slice(1); }
 
   var fmtDay = new Intl.DateTimeFormat("fr-FR", { weekday: "long", day: "numeric", month: "long" });
   var fmtShort = new Intl.DateTimeFormat("fr-FR", { day: "numeric", month: "short" });
   var fmtTime = new Intl.DateTimeFormat("fr-FR", { hour: "2-digit", minute: "2-digit" });
-  var fmtFull = new Intl.DateTimeFormat("fr-FR", { day: "numeric", month: "long", year: "numeric", hour: "2-digit", minute: "2-digit" });
 
   function dayFromKey(k) { var p = k.split("-"); return new Date(+p[0], +p[1] - 1, +p[2]); }
-  function fullDate(iso) { var d = new Date(iso); return isNaN(d) ? "inconnue" : fmtFull.format(d); }
-  function rel(iso) {
-    if (!iso) return "";
-    var d = new Date(iso);
+  function when(iso) {
+    var d = new Date(iso || "");
     if (isNaN(d)) return "";
     var h = (Date.now() - d.getTime()) / 36e5;
     if (h >= 0 && h < 1) return "il y a moins d'1 h";
     if (h >= 1 && h < 20) return "il y a " + Math.round(h) + " h";
-    return fmtShort.format(d) + ", " + fmtTime.format(d);
+    return fmtShort.format(d);
   }
 
-  document.getElementById("today").textContent = cap(fmtDay.format(new Date()));
+  /* Navigation */
+  var menu = document.getElementById("menu");
+  var sheet = document.getElementById("sheet");
+  var mbtn = document.getElementById("mbtn");
 
-  /* Onglets */
-  var tablist = document.getElementById("tablist");
-  tablist.innerHTML = TABS.map(function (t) {
-    return '<button class="tab" role="tab" type="button" id="tab-' + t.key + '" data-tab="' + t.key + '" aria-selected="false">' +
-      icon(t.key) + "<span>" + esc(t.label) + '</span><span class="count" data-count="' + t.key + '"></span></button>';
-  }).join("");
-  tablist.addEventListener("click", function (e) {
-    var b = e.target.closest(".tab");
-    if (b) setTab(b.getAttribute("data-tab"), true);
+  function link(t, withCount) {
+    return '<a href="#' + (t.key === "une" ? "" : t.key) + '" data-tab="' + t.key + '">' + icon(t.key) + "<span>" + esc(t.label) + "</span>" +
+      (withCount ? '<span class="n" data-n="' + t.key + '"></span>' : "") + "</a>";
+  }
+  menu.innerHTML = TABS.map(function (t, i) { return (i === 1 || i === 10 ? '<div class="sep"></div>' : "") + link(t, true); }).join("");
+  sheet.innerHTML = TABS.map(function (t) { return link(t, false); }).join("");
+
+  function onNav(e) {
+    var a = e.target.closest("a[data-tab]");
+    if (!a) return;
+    e.preventDefault();
+    setTab(a.getAttribute("data-tab"), true);
+  }
+  menu.addEventListener("click", onNav);
+  sheet.addEventListener("click", onNav);
+  mbtn.addEventListener("click", function () {
+    var open = sheet.getAttribute("data-open") !== "true";
+    sheet.setAttribute("data-open", String(open));
+    mbtn.setAttribute("aria-expanded", String(open));
   });
 
   function setTab(k, push) {
     if (KEYS.indexOf(k) < 0) k = "une";
     state.tab = k;
+    sheet.setAttribute("data-open", "false");
+    mbtn.setAttribute("aria-expanded", "false");
     if (push) {
       try { history.replaceState(null, "", k === "une" ? location.pathname + location.search : "#" + k); }
       catch (e) { location.hash = k === "une" ? "" : k; }
+      window.scrollTo(0, 0);
     }
-    var btn = document.getElementById("tab-" + k);
-    if (btn && btn.scrollIntoView) btn.scrollIntoView({ block: "nearest", inline: "nearest" });
     render();
-    if (push) window.scrollTo(0, 0);
   }
   window.addEventListener("hashchange", function () { setTab(location.hash.slice(1) || "une", false); });
 
-  document.querySelector(".seg").addEventListener("click", function (e) {
-    var b = e.target.closest("button[data-period]");
-    if (!b) return;
-    state.period = +b.getAttribute("data-period");
-    document.querySelectorAll(".seg button").forEach(function (x) { x.setAttribute("aria-pressed", String(x === b)); });
+  document.getElementById("period").addEventListener("change", function (e) {
+    state.period = +e.target.value;
     render();
   });
 
-  var qTimer;
-  document.getElementById("q").addEventListener("input", function (e) {
-    clearTimeout(qTimer);
-    var v = e.target.value;
-    qTimer = setTimeout(function () { state.q = norm(v.trim()); render(); }, 120);
-  });
-
   document.getElementById("content").addEventListener("click", function (e) {
-    var b = e.target.closest("[data-goto]");
-    if (b) setTab(b.getAttribute("data-goto"), true);
+    var a = e.target.closest("a[data-goto]");
+    if (!a) return;
+    e.preventDefault();
+    setTab(a.getAttribute("data-goto"), true);
   });
 
-  /* Images : si le média bloque l'affichage, on bascule sur le bandeau de rubrique */
+  /* Image bloquée par le média : bascule sur le bandeau de rubrique */
   document.addEventListener("error", function (e) {
     var img = e.target;
-    if (img && img.tagName === "IMG" && img.closest(".thumb")) {
-      var th = img.closest(".thumb");
-      img.remove();
-      th.style.background = "var(--c-" + th.getAttribute("data-tab") + ")";
-      th.innerHTML = '<span class="fallback">' + icon(th.getAttribute("data-tab")) + "</span>";
-    }
+    if (!img || img.tagName !== "IMG") return;
+    var m = img.closest(".media");
+    if (m) m.outerHTML = mediaHtml({ tab: m.getAttribute("data-tab"), url: m.getAttribute("href") }, true);
   }, true);
 
   /* Données */
-  function visibleItems() {
-    var days = (state.data && state.data.days) || [];
+  function items() {
+    var days = ((state.data && state.data.days) || []).slice().sort(function (a, b) { return a.date < b.date ? 1 : -1; });
     if (!days.length) return [];
-    days = days.slice().sort(function (a, b) { return a.date < b.date ? 1 : -1; });
     var latest = dayFromKey(days[0].date).getTime();
-    var chosen = state.period === 1 ? [days[0]] : days.filter(function (d) {
-      return latest - dayFromKey(d.date).getTime() < state.period * 864e5;
-    });
+    var chosen = state.period === 1 ? [days[0]] : days.filter(function (d) { return latest - dayFromKey(d.date).getTime() < state.period * 864e5; });
     var out = [], seen = {};
     chosen.forEach(function (d) {
       (d.items || []).forEach(function (it) {
@@ -143,7 +139,6 @@
         out.push(Object.assign({ day: d.date }, it));
       });
     });
-    if (state.q) out = out.filter(function (it) { return norm(it.title + " " + it.summary + " " + it.source).indexOf(state.q) >= 0; });
     out.sort(function (a, b) {
       if (a.day !== b.day) return a.day < b.day ? 1 : -1;
       return (b.publishedAt || "").localeCompare(a.publishedAt || "");
@@ -151,113 +146,108 @@
     return out;
   }
 
-  function thumbHtml(it) {
-    var img = safeUrl(it.image);
-    if (img) {
-      return '<div class="thumb" data-tab="' + esc(it.tab) + '"><img src="' + esc(img) + '" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>';
-    }
-    return '<div class="thumb" data-tab="' + esc(it.tab) + '" style="background:var(--c-' + esc(it.tab) + ')"><span class="fallback">' + icon(it.tab) + "</span></div>";
-  }
-
-  function itemHtml(it, compact) {
+  function mediaHtml(it, forceFallback) {
     var u = safeUrl(it.url);
-    var title = u ? '<a href="' + esc(u) + '" target="_blank" rel="noopener noreferrer">' + esc(it.title) + "</a>" : esc(it.title);
-    var pills = "";
-    if (it.paywall) pills += '<span class="pill">Payant</span>';
-    if (it.tag) pills += '<span class="pill">' + esc(it.tag) + "</span>";
-    return '<article class="item' + (compact ? " compact" : "") + '">' + thumbHtml(it) +
-      '<div class="body"><div class="kicker"><span class="src">' + esc(it.source) + "</span><span>" + esc(rel(it.publishedAt)) + "</span>" + pills + "</div>" +
-      "<h3>" + title + "</h3>" + (it.summary ? "<p>" + esc(it.summary) + "</p>" : "") + "</div></article>";
+    var open = u ? '<a class="media" data-tab="' + esc(it.tab) + '" href="' + esc(u) + '" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"' : '<div class="media" data-tab="' + esc(it.tab) + '"';
+    var close = u ? "</a>" : "</div>";
+    var img = !NOIMG && !forceFallback && safeUrl(it.image);
+    if (img) return open + '><img src="' + esc(img) + '" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">' + close;
+    return open + ' style="background:var(--c-' + esc(it.tab) + ')"><span class="fb">' + icon(it.tab) + "</span>" + close;
   }
 
-  function sourceLink(it) {
+  function titleLink(it) {
     var u = safeUrl(it.url);
-    if (u) return '<a href="' + esc(u) + '" target="_blank" rel="noopener noreferrer">Source : ' + esc(it.source || "lien") + "</a>";
-    return it.source ? '<span class="src">Source : ' + esc(it.source) + "</span>" : "";
+    return u ? '<a href="' + esc(u) + '" target="_blank" rel="noopener noreferrer">' + esc(it.title) + "</a>" : esc(it.title);
+  }
+  function metaLine(it) {
+    var bits = [esc(it.source), esc(when(it.publishedAt))];
+    if (it.paywall) bits.push("payant");
+    return '<div class="meta">' + bits.filter(Boolean).join(" · ") + "</div>";
+  }
+  function summaryBlock(it, label) {
+    if (!it.summary) return "";
+    return "<details><summary>" + (label || "Résumé") + "</summary><p>" + esc(it.summary) + "</p></details>";
   }
 
-  function dykCard(it) {
-    if (!it) return "";
-    return '<div class="card dyk"><div class="dyk-label">' + icon("savoir") + "Le saviez-vous</div><h3>" + esc(it.title) + "</h3><p>" + esc(it.summary) + "</p>" + sourceLink(it) + "</div>";
+  function cardHtml(it) {
+    return '<article class="card">' + mediaHtml(it) + '<div class="txt">' +
+      '<a class="chip" href="#' + it.tab + '" data-goto="' + it.tab + '"><i style="background:var(--c-' + it.tab + ')"></i>' + esc(LABEL[it.tab]) + "</a>" +
+      "<h2>" + titleLink(it) + "</h2>" + metaLine(it) + "</div></article>";
   }
-  function dykFull(it) {
-    return '<div class="dyk-full"><div class="kicker">' + esc(cap(fmtDay.format(dayFromKey(it.day)))) + "</div><h3>" + esc(it.title) + "</h3><p>" + esc(it.summary) + "</p>" + sourceLink(it) + "</div>";
+  function rowHtml(it) {
+    return '<article class="row">' + mediaHtml(it) + "<div>" + metaLine(it) + "<h2>" + titleLink(it) + "</h2>" + summaryBlock(it) + "</div></article>";
+  }
+  function dykHtml(it) {
+    var u = safeUrl(it.url);
+    var src = u ? ' <a href="' + esc(u) + '" target="_blank" rel="noopener noreferrer">Source : ' + esc(it.source) + "</a>" : "";
+    return '<div class="dyk">' + icon("savoir") + '<div><div class="lbl">Le saviez-vous ?</div><div class="t">' + esc(it.title) + "</div>" +
+      "<details><summary>Lire</summary><p>" + esc(it.summary) + src + "</p></details></div></div>";
   }
 
   function render() {
-    KEYS.forEach(function (k) {
-      var b = document.getElementById("tab-" + k);
-      if (b) b.setAttribute("aria-selected", String(k === state.tab));
+    var current = state.tab;
+    document.querySelectorAll("a[data-tab]").forEach(function (a) {
+      if (a.getAttribute("data-tab") === current) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
     });
-    var content = document.getElementById("content");
-    var side = document.getElementById("side");
+    mbtn.innerHTML = icon(current) + "<span>" + esc(LABEL[current]) + "</span>" + icon("chev", "chev");
+
     var meta = state.data || {};
+    var up = new Date(meta.lastRun || "");
+    document.getElementById("updated").textContent = isNaN(up) ? "" : "Mis à jour le " + fmtShort.format(up) + " à " + fmtTime.format(up);
 
-    document.getElementById("lastRun").textContent = "Mise à jour : " + (meta.lastRun ? fullDate(meta.lastRun) : (state.data ? "inconnue" : "chargement..."));
-
-    if (state.error) { content.innerHTML = '<p class="notice">' + esc(state.error) + "</p>"; side.innerHTML = ""; return; }
+    var content = document.getElementById("content");
+    if (state.error) { content.innerHTML = '<p class="notice">' + esc(state.error) + "</p>"; return; }
     if (!state.data) return;
 
-    var items = visibleItems();
-    var news = items.filter(function (i) { return i.tab !== "savoir"; });
+    var all = items();
     var counts = {};
-    items.forEach(function (it) { counts[it.tab] = (counts[it.tab] || 0) + 1; });
-    document.querySelectorAll("[data-count]").forEach(function (el) {
-      var k = el.getAttribute("data-count");
-      var n = k === "une" ? news.length : (counts[k] || 0);
-      el.textContent = n ? String(n) : "";
-      el.style.display = n ? "" : "none";
+    all.forEach(function (it) { counts[it.tab] = (counts[it.tab] || 0) + 1; });
+    document.querySelectorAll("[data-n]").forEach(function (el) {
+      var k = el.getAttribute("data-n");
+      el.textContent = k === "une" || k === "savoir" ? "" : (counts[k] || "");
     });
 
-    var dyk = items.filter(function (i) { return i.tab === "savoir"; })[0];
-    side.innerHTML = (state.tab !== "savoir" ? dykCard(dyk) : "") +
-      '<div class="card status"><h3>État de la veille</h3><dl>' +
-      "<dt>Dernier passage</dt><dd>" + esc(meta.lastRun ? fullDate(meta.lastRun) : "inconnu") + "</dd>" +
-      "<dt>Prochain</dt><dd>" + esc(meta.nextRun || "chaque jour vers 6 h 45") + "</dd>" +
-      "<dt>Articles</dt><dd>" + news.length + " sur la période</dd></dl>" +
-      (meta.note ? '<p class="note">' + esc(meta.note) + "</p>" : "") + "</div>";
-
-    if (!items.length) {
-      content.innerHTML = '<p class="notice">' + (state.q ? "Aucun article ne correspond à cette recherche sur la période choisie." : "Aucun article pour cette période. La prochaine veille remplira la page.") + "</p>";
-      return;
-    }
-
+    var head = '<div class="view-head">' + icon(current) + "<h1>" + esc(LABEL[current]) + "</h1></div>";
     var html = "";
-    if (state.tab === "une") {
+
+    if (current === "une") {
+      var dyk = all.filter(function (i) { return i.tab === "savoir"; })[0];
+      var tops = [];
       TABS.forEach(function (t) {
         if (t.key === "une" || t.key === "savoir") return;
-        var list = items.filter(function (i) { return i.tab === t.key; });
-        if (!list.length) return;
-        html += '<section class="section"><div class="section-head">' + icon(t.key) + "<h2>" + esc(t.label) + "</h2>" +
-          (list.length > 2 ? '<button type="button" data-goto="' + t.key + '">Tout voir (' + list.length + ")</button>" : "") + "</div>" +
-          list.slice(0, 2).map(function (i) { return itemHtml(i, true); }).join("") + "</section>";
+        var first = all.filter(function (i) { return i.tab === t.key; })[0];
+        if (first) tops.push(first);
       });
-    } else if (state.tab === "savoir") {
-      var facts = items.filter(function (i) { return i.tab === "savoir"; });
-      html = facts.length ? facts.map(dykFull).join("") : '<p class="notice">Pas encore de « Le saviez-vous » sur cette période.</p>';
+      html = (dyk ? dykHtml(dyk) : "") + (tops.length ? '<div class="grid">' + tops.map(cardHtml).join("") + "</div>" : '<p class="notice">Aucun article pour cette période.</p>');
+    } else if (current === "savoir") {
+      var facts = all.filter(function (i) { return i.tab === "savoir"; });
+      html = facts.length ? facts.map(dykHtml).join("") : '<p class="notice">Pas encore de « Le saviez-vous » sur cette période.</p>';
     } else {
-      var list2 = items.filter(function (i) { return i.tab === state.tab; });
-      if (!list2.length) {
-        html = '<p class="notice">Rien de neuf dans « ' + esc(LABEL[state.tab]) + " » sur cette période.</p>";
-      } else {
-        var cur = "", body = "";
-        list2.forEach(function (i) {
-          if (state.period > 1 && i.day !== cur) {
-            cur = i.day;
-            body += '<div class="day-head">' + esc(cap(fmtDay.format(dayFromKey(i.day)))) + "</div>";
-          }
-          body += itemHtml(i, false);
+      var list = all.filter(function (i) { return i.tab === current; });
+      if (!list.length) html = '<p class="notice">Rien de neuf dans cette rubrique sur la période choisie.</p>';
+      else {
+        var day = "";
+        list.forEach(function (it) {
+          if (state.period > 1 && it.day !== day) { day = it.day; html += '<div class="day">' + esc(cap(fmtDay.format(dayFromKey(day)))) + "</div>"; }
+          html += rowHtml(it);
         });
-        html = '<section class="section"><div class="section-head">' + icon(state.tab) + "<h2>" + esc(LABEL[state.tab]) + "</h2></div>" + body + "</section>";
+        html = '<div class="list">' + html + "</div>";
       }
     }
-    content.innerHTML = html;
+    content.innerHTML = head + html;
   }
 
   setTab(location.hash.slice(1) || "une", false);
 
-  fetch(DATA_URL + "?t=" + Date.now(), { cache: "no-store" })
-    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
-    .then(function (json) { state.data = json; render(); })
-    .catch(function () { state.error = "Impossible de charger la veille. Réessaie dans un instant."; render(); });
+  function onData(json) { state.data = json || { days: [] }; state.error = null; render(); }
+  function onError(msg) { state.error = msg || "Impossible de charger la veille. Réessaie dans un instant."; render(); }
+
+  if (typeof window.VEILLE_SOURCE === "function") {
+    window.VEILLE_SOURCE(onData, onError);
+  } else {
+    fetch("data/veille.json?t=" + Date.now(), { cache: "no-store" })
+      .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(onData)
+      .catch(function () { onError(); });
+  }
 })();

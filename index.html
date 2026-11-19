@@ -7,7 +7,7 @@
   <meta name="description" content="Veille d'actualité quotidienne classée par rubriques, à partir de médias indépendants.">
   <meta name="robots" content="noindex, nofollow">
   <meta name="referrer" content="no-referrer">
-  <meta name="theme-color" content="#ffffff">
+  <meta name="theme-color" content="#121418">
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,42 +15,32 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <header class="masthead">
+  <header class="top">
     <div class="wrap">
-      <h1>Ma veille <span>quotidienne</span></h1>
-      <div class="meta">
-        <span id="today"></span>
-        <span id="lastRun">Mise à jour : chargement...</span>
+      <div class="brand">Ma veille <span>quotidienne</span></div>
+      <div class="top-right">
+        <span class="updated" id="updated"></span>
+        <select id="period" class="period" aria-label="Période">
+          <option value="1">Aujourd'hui</option>
+          <option value="7">7 derniers jours</option>
+          <option value="30">30 derniers jours</option>
+        </select>
       </div>
     </div>
   </header>
 
-  <nav class="tabs" aria-label="Rubriques">
-    <div class="wrap" role="tablist" id="tablist"></div>
-  </nav>
-
-  <div class="wrap">
-    <div class="toolbar">
-      <div class="seg" role="group" aria-label="Période">
-        <button type="button" data-period="1" aria-pressed="true">Dernière veille</button>
-        <button type="button" data-period="7" aria-pressed="false">7 jours</button>
-        <button type="button" data-period="30" aria-pressed="false">30 jours</button>
-      </div>
-      <label class="search" for="q">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-        <input id="q" type="search" placeholder="Rechercher un mot, une source..." autocomplete="off">
-      </label>
-    </div>
+  <div class="wrap shell">
+    <nav class="menu" id="menu" aria-label="Rubriques"></nav>
+    <main>
+      <div class="mbar"><button type="button" id="mbtn" aria-expanded="false" aria-controls="sheet"></button></div>
+      <nav class="sheet" id="sheet" aria-label="Rubriques" data-open="false"></nav>
+      <div id="content" aria-live="polite"><p class="notice">Chargement de la veille...</p></div>
+    </main>
   </div>
 
-  <main class="wrap layout">
-    <section id="content" aria-live="polite"><p class="notice">Chargement de la veille...</p></section>
-    <aside><div class="sticky" id="side"></div></aside>
-  </main>
-
-  <footer class="footer">
+  <footer class="foot">
     <div class="wrap">
-      <p>Résumés rédigés à partir des sources citées. Les images et articles restent la propriété de leurs médias : chaque titre renvoie vers l'article original.</p>
+      <p>Résumés rédigés à partir des sources citées. Articles et images restent la propriété de leurs médias.</p>
     </div>
   </footer>
 
