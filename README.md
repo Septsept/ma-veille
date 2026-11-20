@@ -41,10 +41,14 @@ Le workflow peut aussi être lancé à la main depuis l'onglet Actions (« Run w
 
 ### Configuration
 
+La veille utilise l'abonnement Claude du propriétaire du dépôt (Pro ou supérieur), sans clé d'API ni facturation à l'usage.
+
 | Réglage | Emplacement | Rôle |
 | --- | --- | --- |
-| `ANTHROPIC_API_KEY` | Settings, Secrets and variables, Actions, onglet Secrets | Clé d'API Anthropic (obligatoire). Sans elle, le workflow ne fait rien. |
+| `CLAUDE_CODE_OAUTH_TOKEN` | Settings, Secrets and variables, Actions, onglet Secrets | Jeton lié à l'abonnement Claude, généré avec `claude setup-token` (valable un an). Sans lui, le workflow ne fait rien. |
 | `VEILLE_MODEL` | Même page, onglet Variables | Modèle utilisé (facultatif). Par défaut `claude-sonnet-5-5`. |
+
+Le jeton expire au bout d'un an : il suffit d'en générer un nouveau et de remplacer le secret.
 
 ## Structure du dépôt
 

@@ -21,11 +21,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 40
     env:
-      CLE_PRESENTE: ${{ secrets.ANTHROPIC_API_KEY != '' }}
+      CLE_PRESENTE: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN != '' }}
     steps:
-      - name: Vérifier la clé d'API
+      - name: Vérifier le jeton Claude
         if: env.CLE_PRESENTE != 'true'
-        run: echo "::notice::Secret ANTHROPIC_API_KEY absent, la veille est ignorée."
+        run: echo "::notice::Secret CLAUDE_CODE_OAUTH_TOKEN absent, la veille est ignorée."
 
       - name: Récupérer le dépôt
         if: env.CLE_PRESENTE == 'true'
@@ -39,7 +39,7 @@ jobs:
         if: env.CLE_PRESENTE == 'true'
         uses: anthropics/claude-code-action@v1
         with:
-          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
           prompt: |
             Lis le fichier .github/veille/consigne.md et applique-le entièrement.
