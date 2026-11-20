@@ -30,11 +30,21 @@ Veille d'actualité personnelle, mise à jour chaque matin et classée par rubri
 
 ## Fonctionnement
 
-1. Chaque jour vers 6 h 45 (heure de Paris), une tâche planifiée Claude parcourt les flux RSS et les sites des sources, puis effectue des recherches ciblées pour chaque rubrique.
-2. Elle rédige un résumé de chaque article retenu, récupère l'adresse de son image d'aperçu (balise `og:image`) et met à jour `data/veille.json`.
-3. Le commit est poussé sur `main` et GitHub Pages publie automatiquement la nouvelle version.
+La veille est produite chaque matin par un workflow GitHub Actions (`.github/workflows/veille.yml`) :
 
-Les articles de plus de 30 jours sont retirés du fichier à chaque passage.
+1. Vers 6 h 40 (heure de Paris en hiver, 7 h 40 en été), `scripts/preparer.py` liste les articles déjà publiés pour éviter les doublons.
+2. Claude, via [Claude Code Action](https://github.com/anthropics/claude-code-action), lit les flux RSS et les sites des sources, complète par des recherches ciblées, rédige les résumés, récupère l'image d'aperçu de chaque article (balise `og:image`) et écrit `.veille/jour.json`. La consigne complète est dans `.github/veille/consigne.md`.
+3. `scripts/fusionner.py` valide chaque article, retire les doublons, intègre la journée dans `data/veille.json` et supprime les jours de plus de 30 jours.
+4. Le workflow commite le fichier sur `main` et GitHub Pages publie la nouvelle version.
+
+Le workflow peut aussi être lancé à la main depuis l'onglet Actions (« Run workflow »).
+
+### Configuration
+
+| Réglage | Emplacement | Rôle |
+| --- | --- | --- |
+| `ANTHROPIC_API_KEY` | Settings, Secrets and variables, Actions, onglet Secrets | Clé d'API Anthropic (obligatoire). Sans elle, le workflow ne fait rien. |
+| `VEILLE_MODEL` | Même page, onglet Variables | Modèle utilisé (facultatif). Par défaut `claude-sonnet-5-5`. |
 
 ## Structure du dépôt
 
@@ -47,6 +57,12 @@ Les articles de plus de 30 jours sont retirés du fichier à chaque passage.
 │   └── img/favicon.svg
 ├── data/
 │   └── veille.json       Articles des 30 derniers jours
+├── scripts/
+│   ├── preparer.py       Liste de ce qui est déjà publié
+│   └── fusionner.py      Validation et intégration des articles du jour
+├── .github/
+│   ├── workflows/veille.yml   Workflow quotidien
+│   └── veille/consigne.md     Consigne donnée à Claude
 ├── robots.txt            Exclut le site des moteurs de recherche
 └── .nojekyll             Désactive le traitement Jekyll de GitHub Pages
 ```

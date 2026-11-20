@@ -1,0 +1,75 @@
+name: Veille quotidienne
+
+on:
+  schedule:
+    # 5 h 40 UTC : 6 h 40 à Paris en hiver, 7 h 40 en été.
+    # GitHub peut retarder les tâches planifiées de quelques minutes.
+    - cron: "40 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  id-token: write
+  pages: write
+
+concurrency:
+  group: veille
+  cancel-in-progress: false
+
+jobs:
+  veille:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      CLE_PRESENTE: ${{ secrets.ANTHROPIC_API_KEY != '' }}
+    steps:
+      - name: Vérifier la clé d'API
+        if: env.CLE_PRESENTE != 'true'
+        run: echo "::notice::Secret ANTHROPIC_API_KEY absent, la veille est ignorée."
+
+      - name: Récupérer le dépôt
+        if: env.CLE_PRESENTE == 'true'
+        uses: actions/checkout@v4
+
+      - name: Préparer la liste des articles déjà publiés
+        if: env.CLE_PRESENTE == 'true'
+        run: python3 scripts/preparer.py
+
+      - name: Collecter et rédiger la veille du jour
+        if: env.CLE_PRESENTE == 'true'
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: |
+            Lis le fichier .github/veille/consigne.md et applique-le entièrement.
+            Le seul fichier que tu dois écrire est .veille/jour.json.
+          claude_args: |
+            --model ${{ vars.VEILLE_MODEL || 'claude-sonnet-5-5' }}
+            --max-turns 90
+            --allowedTools "WebSearch,WebFetch,Read,Write,Glob,Grep"
+
+      - name: Valider et intégrer les nouveaux articles
+        if: env.CLE_PRESENTE == 'true'
+        id: fusion
+        run: python3 scripts/fusionner.py
+
+      - name: Publier sur le dépôt
+        if: env.CLE_PRESENTE == 'true'
+        run: |
+          git config user.name "Septsept"
+          git config user.email "Septsept@users.noreply.github.com"
+          git add data/veille.json
+          if git diff --cached --quiet; then
+            echo "Aucun changement à publier."
+            exit 0
+          fi
+          git commit -m "${{ steps.fusion.outputs.message }}"
+          git push origin HEAD:main
+
+      - name: Relancer la mise en ligne GitHub Pages
+        if: env.CLE_PRESENTE == 'true'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds" --silent
