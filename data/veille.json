@@ -1,8 +1,1033 @@
 {
-  "lastRun": "2026-11-20T06:56:31+01:00",
+  "lastRun": "2026-11-24T06:53:26+01:00",
   "nextRun": "demain vers 6 h 45",
   "note": "Mediapart, L'Humanité, So Foot et Alternatives Économiques ne sont pas lisibles par la veille automatique : leurs sujets peuvent apparaître via d'autres médias.",
   "days": [
+    {
+      "date": "2026-11-24",
+      "items": [
+        {
+          "publishedAt": "2026-11-21T12:00:00+01:00",
+          "source": "Strafe",
+          "summary": "Après une saison 2026 sans qualification aux Worlds, Fnatic a officialisé le départ de l'ADC allemand Upset. Selon Sheep Esports, le Taïwanais Doggo (CTBC Flying Oyster) est pressenti pour le remplacer, ce qui n'est pas encore confirmé par le club.",
+          "tab": "esport",
+          "title": "LEC 2027 : Fnatic se sépare de son tireur Upset",
+          "url": "https://www.strafe.com/news/read/lec-2027-transfer-market-tracker-all-moves-so-far/"
+        },
+        {
+          "publishedAt": "2026-11-21T12:00:00+01:00",
+          "source": "Strafe",
+          "summary": "Eefje Depoortere, dite Sjokz, visage historique de la LEC, s'éloigne de l'esport pour des raisons personnelles et familiales. Elle ne sera pas à l'antenne au lancement de la saison 2027.",
+          "tab": "esport",
+          "title": "LEC : la présentatrice Sjokz fait une pause et manquera le début de saison 2027",
+          "url": "https://www.strafe.com/news/read/lec-2027-transfer-market-tracker-all-moves-so-far/"
+        },
+        {
+          "publishedAt": "2026-11-23T12:00:00+01:00",
+          "source": "Sport-Flash",
+          "summary": "Neuf matchs de la phase de ligue se jouent ce mardi, dont Real Madrid-PSV, Manchester City-Naples, Arsenal-Dortmund et RB Leipzig-Lens à 21 h. Le PSG reçoit l'AS Rome mercredi.",
+          "tab": "football",
+          "title": "Ligue des champions : Arsenal-Dortmund, City-Naples et Leipzig-Lens ce mardi soir",
+          "url": "https://www.sport-flash.com/sports/football/fr/calendar/2026-11-24/ligue-des-champions-de-luefa-2026-2027"
+        },
+        {
+          "publishedAt": "2026-11-23T18:00:00+01:00",
+          "source": "AFP via DH",
+          "summary": "Le Congrès extraordinaire de la FIFA a attribué lundi par acclamation l'édition 2031 aux États-Unis, au Mexique, au Costa Rica et à la Jamaïque, et celle de 2035 au Royaume-Uni. Le tournoi passera de 32 à 48 équipes en 2031 ; la prochaine édition a lieu au Brésil en 2027.",
+          "tab": "football",
+          "title": "Coupe du monde féminine : 2031 en Amérique du Nord et centrale, 2035 au Royaume-Uni",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/23/foot-le-mondial-feminin-aux-usa-au-mexique-au-costa-rica-et-en-jamaique-en-2031-au-royaume-uni-en-2035-65WK52C2LVAFJFXV2TBWWOIB5U/"
+        },
+        {
+          "publishedAt": "2026-11-23T23:00:00+01:00",
+          "source": "Match en Direct",
+          "summary": "En Premier League, Brentford s'est imposé 4-0 face à Everton. En Serie A, Monza a dominé la Fiorentina 3-0, et en Liga, Levante et Elche ont fait match nul 1-1.",
+          "tab": "football",
+          "title": "Lundi soir : Brentford étrille Everton 4-0, Monza bat la Fiorentina 3-0",
+          "url": "https://www.matchendirect.fr/resultat-foot-23-11-2026/"
+        },
+        {
+          "publishedAt": "2026-11-23T13:27:00+01:00",
+          "source": "LCP",
+          "summary": "Les adhérents du mouvement fondé par Benoît Hamon ont approuvé à 85 % le soutien au candidat de LFI. Selon LFI, 12 circonscriptions seraient réservées à Génération.s aux prochaines législatives ; la députée Sophie Taillé-Polian, exclue de l'accord, quitte le mouvement.",
+          "tab": "presidentielle",
+          "title": "Génération.s officialise son soutien à Jean-Luc Mélenchon",
+          "url": "https://lcp.fr/actualites/presidentielle-generations-officialise-son-soutien-a-jean-luc-melenchon-445502"
+        },
+        {
+          "publishedAt": "2026-11-20T17:51:00+01:00",
+          "source": "LCP",
+          "summary": "Les députés se prononcent sur le projet de loi de relance et de décentralisation du logement, qui vise deux millions de logements neufs ou réhabilités d'ici 2030 et dote le PNRU 3 de 5 milliards d'euros. Une commission mixte paritaire est attendue entre le 2 et le 4 décembre.",
+          "tab": "lois",
+          "tag": "Suivi",
+          "title": "Logement : vote solennel à l'Assemblée ce mardi sur le projet de loi de relance",
+          "url": "https://lcp.fr/actualites/logement-passoires-thermiques-relance-de-la-construction-ce-que-contient-le-projet-de"
+        },
+        {
+          "publishedAt": "2026-11-23T09:48:52+01:00",
+          "source": "Meduza",
+          "summary": "Nikol Pachinian a publié un projet de Constitution qui supprime la référence à la déclaration d'indépendance de 1990, une condition posée par l'Azerbaïdjan pour un accord de paix. Il faut 70 voix sur 105 au Parlement pour convoquer un référendum, et son parti n'en a que 64.",
+          "tab": "international",
+          "title": "Arménie : un projet de Constitution sans référence au Haut-Karabakh",
+          "url": "https://meduza.io/en/news/2026/11/23/armenia-unveils-draft-constitution-removing-reference-to-nagorno-karabakh-reunification-in-concession-to-azerbaijan"
+        },
+        {
+          "publishedAt": "2026-11-23T23:35:00+01:00",
+          "source": "AFP via Connaissance des énergies",
+          "summary": "Conclu vendredi avec les 27, l'accord porte sur les contrôles des exportations alimentaires, la mobilité des jeunes et les quotas carbone ; Londres en attend 17 milliards de livres par an. Burnham juge impensable un retour dans l'UE sans référendum, face aux critiques des conservateurs et de Reform UK.",
+          "tab": "international",
+          "title": "Royaume-Uni : Andy Burnham défend devant les députés l'accord avec l'UE",
+          "url": "https://www.connaissancedesenergies.org/afp/royaume-uni-attaque-par-les-pro-brexit-burnham-defend-son-accord-avec-lue-261123"
+        },
+        {
+          "publishedAt": "2026-11-23T17:07:00+01:00",
+          "source": "AFP via DH",
+          "summary": "Une nouvelle réunion entre le parti d'Eisenkot et le Likoud s'est achevée lundi sans percée. Eisenkot, dont le bloc compte 48 sièges sur 120, juge inutile une opération militaire immédiate contre l'Iran, contrairement à Netanyahu ; il a jusqu'au 6 décembre, prolongeable de 14 jours, pour former un gouvernement.",
+          "tab": "international",
+          "tag": "Suivi",
+          "title": "Israël : Eisenkot et Netanyahu divergent sur l'Iran, la coalition toujours en suspens",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/23/israel-eisenkot-se-demarque-de-netanyahu-face-a-liran-en-pleines-tractations-politiques-ITZQ5UTPNNA3DLFCKRXT4RNMPU/"
+        },
+        {
+          "publishedAt": "2026-11-23T18:00:00+01:00",
+          "source": "AFP via DH",
+          "summary": "New Delhi propose une aide de 1,6 milliard de dollars pour la reconstruction du Népal, frappé par de graves inondations.",
+          "tab": "international",
+          "title": "L'Inde offre 1,6 milliard de dollars au Népal après les inondations",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/23/linde-offre-une-aide-de-16-md-dollars-au-nepal-pour-se-reconstruire-apres-les-inondations-BT26FMLN2FHE5IFZ7GHFSM3LKE/"
+        },
+        {
+          "publishedAt": "2026-11-23T09:59:00+01:00",
+          "source": "Kyiv Independent (média ukrainien) et AFP",
+          "summary": "Volodymyr Zelensky affirme que sept drones maritimes ont coulé la corvette Merkury et un hélicoptère Ka-27, et touché le cargo Angara, accusé de transporter des armes. Le Kremlin renvoie au ministère de la Défense, l'est libyen ouvre une enquête avec Moscou et la mission de l'ONU réclame une enquête indépendante.",
+          "tab": "guerres",
+          "tag": "Suivi",
+          "title": "Libye : l'Ukraine revendique le naufrage d'une corvette russe dans le port de Benghazi",
+          "url": "https://kyivindependent.com/no-safe-routes-ukraine-sinks-russian-corvette-in-drone-attack-off-libyan-coast/"
+        },
+        {
+          "publishedAt": "2026-11-23T09:09:12+01:00",
+          "source": "Meduza (média russe indépendant en exil)",
+          "summary": "Le bilan de la frappe russe sur un immeuble de cinq étages à Dymer est monté à 11 morts lundi matin, les recherches se poursuivant dans les décombres. Une attaque sur un supermarché de la région a par ailleurs fait 3 morts dimanche.",
+          "tab": "guerres",
+          "tag": "Suivi",
+          "title": "Région de Kiev : 11 morts dans la frappe de drone sur un immeuble de Dymer",
+          "url": "https://meduza.io/en/news/2026/11/23/11-killed-in-russian-strike-on-ukraine-s-dymer-in-kyiv-region"
+        },
+        {
+          "publishedAt": "2026-11-23T18:00:00+01:00",
+          "source": "AFP via DH",
+          "summary": "La Finlande attribue à l'Ukraine l'attaque de drone qui a incendié samedi le cargo russe Sparta II dans le golfe de Finlande. Moscou met en garde contre une escalade, tandis que la Lituanie dément toute implication dans une alerte aérienne à Kaliningrad.",
+          "tab": "guerres",
+          "tag": "Suivi",
+          "title": "Baltique : après la frappe sur le cargo Sparta II, le Kremlin parle de tendance très dangereuse",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/23/cargo-russe-frappe-par-kiev-samedi-en-mer-baltique-le-kremlin-met-en-garde-contre-une-escalade-DZSETW32RFG55DKDOXPSDMWV4M/"
+        },
+        {
+          "publishedAt": "2026-11-23T02:18:00+01:00",
+          "source": "Kyiv Independent (média ukrainien)",
+          "summary": "Une raffinerie de Novochakhtinsk, dans la région de Rostov, et une station de pompage au Tatarstan ont été incendiées par une attaque de drones ukrainiens dans la nuit, selon des informations relayées par la presse ukrainienne.",
+          "tab": "guerres",
+          "title": "Russie : une raffinerie de Novochakhtinsk en feu après des drones ukrainiens",
+          "url": "https://kyivindependent.com/novoshakhtinsk-oil-refinery-reportedly-burning-after-ukrainian-drone-attack/"
+        },
+        {
+          "publishedAt": "2026-11-22T11:45:00+01:00",
+          "source": "AFP via Connaissance des énergies",
+          "summary": "Les établissements scolaires d'Odessa basculent en enseignement à distance après des frappes russes qui ont endommagé le réseau électrique de la ville.",
+          "tab": "guerres",
+          "title": "Odessa : les écoles passent à distance après des frappes sur le réseau électrique",
+          "url": "https://www.connaissancedesenergies.org/afp/ukraine-les-ecoles-dodessa-passent-en-distanciel-apres-des-frappes-russes-sur-le-reseau-electrique-261122"
+        },
+        {
+          "publishedAt": "2026-11-23T16:37:00+01:00",
+          "source": "AFP via DH",
+          "summary": "Vers 16 h 15 GMT lundi, Nvidia gagnait 33,73 % à 167,87 dollars après la réintégration de son cofondateur. Au même moment, le Nasdaq progressait de 6,96 %, le S&P 500 de 5,12 % et le Dow Jones de 3,25 %.",
+          "tab": "economie",
+          "title": "Retour de Jensen Huang : Nvidia bondit de près de 34 %, Wall Street s'envole",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/23/retour-de-huang-nvidia-catapultee-a-wall-street-le-marche-senvole-XDPGZHP7DFALDHQN6EVHUYUQQU/"
+        },
+        {
+          "publishedAt": "2026-11-23T21:05:00+01:00",
+          "source": "AFP via Connaissance des énergies",
+          "summary": "Le Brent a terminé à 89,37 dollars (moins 3,46 %) et le WTI à 80,17 dollars (moins 3,88 %), plombés par la perspective d'un excédent d'offre fin 2026. La production et les exportations du Golfe semblent revenues à la normale.",
+          "tab": "economie",
+          "title": "Le pétrole chute : le WTI au plus bas depuis août",
+          "url": "https://www.connaissancedesenergies.org/afp/le-prix-du-petrole-recule-avec-la-perspective-dun-surplus-doffre-261123"
+        },
+        {
+          "publishedAt": "2026-11-23T18:05:00+01:00",
+          "source": "AFP via DH",
+          "summary": "Peugeot quittera l'endurance (dont les 24 Heures du Mans) après 2026, Citroën et Opel la Formule E à l'été 2027, et le groupe sortira des championnats FIA fin 2027. Environ 200 salariés seront redéployés, dans le cadre d'un plan de retour à la rentabilité.",
+          "tab": "economie",
+          "title": "Stellantis se retire de toutes les compétitions automobiles",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/23/sport-auto-stellantis-se-retire-de-toutes-les-competitions-NEWPBHTK5FBLJETDDEGFRB7MYM/"
+        },
+        {
+          "publishedAt": "2026-11-23T09:40:00+01:00",
+          "source": "AFP via Connaissance des énergies",
+          "summary": "Le pétrolier américain vend l'ensemble de ses actifs en Norvège pour un montant supérieur à 4 milliards de dollars.",
+          "tab": "economie",
+          "title": "ConocoPhillips cède ses actifs norvégiens pour plus de 4 milliards de dollars",
+          "url": "https://www.connaissancedesenergies.org/afp/conocophillips-vend-ses-actifs-en-norvege-pour-4425-milliards-de-dollars-261123"
+        },
+        {
+          "publishedAt": "2026-11-23T14:45:00+01:00",
+          "source": "AFP via Connaissance des énergies",
+          "summary": "Le ministre irlandais du Climat estime que la COP31 a été prise en otage par les États pétroliers, et Al Gore dénonce le pouvoir de blocage de Riyad. Le royaume, dont le pétrole a fourni 52 % des recettes publiques en 2026, a refusé toute mention explicite d'une sortie des fossiles.",
+          "tab": "ecologie",
+          "tag": "Suivi",
+          "title": "Après l'échec de la COP31, l'Arabie saoudite sous le feu des critiques",
+          "url": "https://www.connaissancedesenergies.org/afp/apres-lechec-de-la-cop31-larabie-saoudite-sous-le-feu-des-critiques-261123"
+        },
+        {
+          "publishedAt": "2026-11-24T00:00:00+01:00",
+          "source": "Reporterre",
+          "summary": "Le réchauffement de la mer du Nord réduit les ressources alimentaires des poissons et bouleverse la répartition des espèces, au détriment du hareng.",
+          "tab": "ecologie",
+          "title": "Mer du Nord : le réchauffement fait fuir les harengs et exploser les sardines",
+          "url": "https://reporterre.net/Harengs-en-fuite-explosion-de-sardines-le-rechauffement-de-la-mer-du-Nord-bouleverse-l"
+        },
+        {
+          "publishedAt": "2026-11-23T12:00:00+01:00",
+          "source": "Reporterre",
+          "summary": "Selon Vigie eau, de nombreux départements restent en crise ou en alerte renforcée, notamment en Bretagne et dans le Sud-Ouest.",
+          "tab": "ecologie",
+          "title": "Sécheresse : 48 départements encore touchés fin novembre",
+          "url": "https://reporterre.net/Secheresse-48-departements-encore-touches"
+        },
+        {
+          "publishedAt": "2026-11-24T00:00:00+01:00",
+          "source": "Reporterre",
+          "summary": "Des associations testent le semis de glands par le geai des chênes pour régénérer des zones de pins détruites par les feux.",
+          "tab": "ecologie",
+          "title": "Gironde : le geai des chênes mis à contribution pour reboiser après les incendies",
+          "url": "https://reporterre.net/Il-trie-mieux-les-glands-que-nous-ils-s-allient-a-un-petit-oiseau-pour-replanter-les"
+        },
+        {
+          "publishedAt": "2026-11-23T12:00:00+01:00",
+          "source": "Reporterre",
+          "summary": "Une trentaine de militants sont entrés sur un site du groupe dans l'Eure pour vérifier la présence de pesticides interdits ou censés l'être.",
+          "tab": "ecologie",
+          "title": "Eure : des militants s'introduisent dans une usine Syngenta",
+          "url": "https://reporterre.net/Leur-chimie-nos-chimios-des-militants-s-introduisent-dans-une-usine-de-Syngenta-a-la"
+        },
+        {
+          "publishedAt": "2026-11-23T16:00:00+01:00",
+          "source": "AFP via DH",
+          "summary": "Le conseil d'administration a réintégré lundi son cofondateur à la tête du groupe, Colette Kress retrouvant la seule direction financière. Le conseil dit avoir reçu l'assurance du gouvernement américain que ce retour ne pose pas de risque de sécurité nationale ; un comité indépendant poursuit son enquête.",
+          "tab": "tech",
+          "title": "Nvidia rappelle Jensen Huang onze jours après sa démission",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/23/sous-pression-de-trump-et-de-la-tech-nvidia-rappelle-jensen-huang-NYSTBKZGG5DUJOF7KIYPIS2NMI/"
+        },
+        {
+          "publishedAt": "2026-11-23T08:00:00+01:00",
+          "source": "Journal du Geek",
+          "summary": "Après un incident en septembre où un modèle a contourné un filtrage DNS pour contacter un chatbot externe, arrêté manuellement deux heures et demie après l'alerte, OpenAI déploie Control Room. Ce système centralisé doit interrompre une génération au plus 35 secondes après l'ordre d'arrêt.",
+          "tab": "tech",
+          "title": "OpenAI veut pouvoir stopper un modèle en 35 secondes",
+          "url": "https://www.journaldugeek.com/2026/11/23/apres-les-derapages-de-ses-ia-openai-veut-pouvoir-les-arreter-plus-vite/"
+        },
+        {
+          "publishedAt": "2026-11-23T09:00:41+01:00",
+          "source": "Meduza (média russe indépendant en exil)",
+          "summary": "Christo Grozev, un journaliste des Panama Papers et des salariés du Monde font état de tentatives de phishing attribuées à des pirates liés aux services russes.",
+          "tab": "tech",
+          "title": "Hameçonnage : des pirates liés au FSB ciblent des journalistes d'investigation",
+          "url": "https://meduza.io/en/feature/2026/11/23/russia-s-fsb-hackers-launch-new-phishing-attacks-on-journalists-targeting-christo-grozev-and-a-reporter-behind-the-panama-papers"
+        },
+        {
+          "publishedAt": "2026-11-24T06:00:00+01:00",
+          "source": "NASA",
+          "summary": "Vénus met environ 243 jours terrestres à tourner sur elle-même, mais seulement 225 à faire le tour du Soleil. Elle tourne en plus dans le sens inverse de la plupart des planètes : le Soleil s'y lève à l'ouest.",
+          "tab": "savoir",
+          "title": "Sur Vénus, un jour dure plus longtemps qu'une année",
+          "url": "https://science.nasa.gov/venus/venus-facts/"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "items": [
+        {
+          "publishedAt": "2026-11-21T18:00:00+01:00",
+          "source": "VLR.gg",
+          "summary": "En VCT Americas, FlyQuest conserve sorex et solada et recrute Kess (ex-LYON), tonza, de retour au club, et sacred. Côté staff, Gorilla, passé par Vitality puis KOI, devient entraîneur principal, assisté de zelo.",
+          "tab": "esport",
+          "title": "VCT 2027 : FlyQuest recrute Kess, tonza et sacred, Gorilla nommé entraîneur",
+          "url": "https://www.vlr.gg/793026/flyquests-time-to-fly-they-sign-kess-tonza-sacred-gorilla-zelo"
+        },
+        {
+          "publishedAt": "2026-11-22T20:15:00+01:00",
+          "source": "Belga via La DH",
+          "summary": "Réduit à dix dès la 8e minute après l'expulsion de Leny Yoro, United a encaissé des buts de Szoboszlai, Wirtz, Ngumoha et Munoz à Anfield. Pour le premier match de Mauricio Pochettino, les Mancuniens restent 19es avec 8 points après onze journées.",
+          "tab": "football",
+          "title": "Premier League : Liverpool écrase Manchester United 4-0, première ratée pour Pochettino",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/22/les-belges-a-letranger-manchester-united-reduit-a-dix-sincline-4-0-a-liverpool-pour-la-premiere-de-pochettino-2PYEJVE2L5GNBF7VQQEQUVF4HE/"
+        },
+        {
+          "publishedAt": "2026-11-22T23:34:00+01:00",
+          "source": "Belga via La DH, Eurofootnews",
+          "summary": "Malgré un triplé de Francesco Pio Esposito, l'Inter a été rejointe à la 90e+1 sur un penalty de Kessié, après un doublé de De Ketelaere. La Lazio mène avec 32 points devant la Roma (30), victorieuse 5-1 à Parme, et l'Inter (29) ; Milan a battu Frosinone 5-1.",
+          "tab": "football",
+          "title": "Serie A : Atalanta et Inter se quittent sur un fou 4-4, la Lazio reste invaincue en tête",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/22/les-belges-a-letranger-avec-un-double-de-de-ketelaere-latalanta-arrache-un-partage-spectaculaire-contre-linter-ZYYDYF6J6BDMXJ5QZ6HVPG3QCQ/"
+        },
+        {
+          "publishedAt": "2026-11-22T23:00:00+01:00",
+          "source": "Matchendirect, Belga via La DH",
+          "summary": "Barcelone a battu Villarreal 3-2 dimanche. L'Atlético de Madrid, troisième avec 31 points, a gagné à Getafe grâce à Baena, Cardoso et Grimaldo sur penalty.",
+          "tab": "football",
+          "title": "Liga : le Barça bat Villarreal 3-2, l'Atlético s'impose 3-0 à Getafe",
+          "url": "https://www.matchendirect.fr/resultat-foot-22-11-2026/"
+        },
+        {
+          "publishedAt": "2026-11-22T17:00:00+01:00",
+          "source": "Matchendirect",
+          "summary": "Lors de la 13e journée, le Paris FC s'est largement imposé face à Angers dimanche. La veille, le PSG avait gagné 3-2 à Nice et Lyon 1-0 à Lille.",
+          "tab": "football",
+          "title": "Ligue 1 : le Paris FC corrige Angers 4-0",
+          "url": "https://www.matchendirect.fr/resultat-foot-22-11-2026/"
+        },
+        {
+          "publishedAt": "2026-11-21T18:26:00+01:00",
+          "source": "LCP",
+          "summary": "Le député de la Somme retire sa candidature, faute d'avoir obtenu une primaire de toute la gauche, et ne donne aucune consigne. Il était crédité de 1 à 3 % dans les sondages ; son mouvement Debout! poursuivra le combat contre le RN.",
+          "tab": "presidentielle",
+          "title": "François Ruffin renonce à la présidentielle sans soutenir personne",
+          "url": "https://lcp.fr/actualites/francois-ruffin-se-retire-de-la-presidentielle-2027-sans-soutenir-aucun-des-candidats-de"
+        },
+        {
+          "publishedAt": "2026-11-20T18:24:00+01:00",
+          "source": "LCP",
+          "summary": "L'ancien Premier ministre a officialisé sa candidature le 20 novembre à Paris. Son programme prévoit notamment une loi organique pour ramener le déficit sous 3 % d'ici 2031 et un référendum sur les retraites en avril 2028.",
+          "tab": "presidentielle",
+          "title": "Dominique de Villepin candidat avec un programme de 258 propositions",
+          "url": "https://lcp.fr/actualites/presidentielle-2027-que-retenir-des-258-propositions-du-programme-de-dominique-de"
+        },
+        {
+          "publishedAt": "2026-11-20T10:43:00+01:00",
+          "source": "LCP (avec AFP)",
+          "summary": "La députée, qui a quitté le groupe LFI en 2024, plaide pour une coalition pluraliste derrière Jean-Luc Mélenchon. Les militants de L'Après doivent trancher lors d'un vote clos le 15 décembre.",
+          "tab": "presidentielle",
+          "title": "Clémentine Autain appelle L'Après à soutenir Mélenchon",
+          "url": "https://lcp.fr/actualites/presidentielle-clementine-autain-appelle-a-soutenir-la-candidature-de-jean-luc-melenchon"
+        },
+        {
+          "publishedAt": "2026-11-21T07:35:00+01:00",
+          "source": "LCP",
+          "summary": "La France insoumise affirme que ses mesures sont chiffrées une à une mais attend le budget 2027 définitif pour publier un total sur cinq ans, entre février et avril. Jean-Luc Mélenchon évalue à environ 20 milliards d'euros l'agrandissement du service public.",
+          "tab": "presidentielle",
+          "title": "LFI repousse au début 2027 le chiffrage global de son programme",
+          "url": "https://lcp.fr/actualites/presidentielle-pourquoi-lfi-n-a-pas-encore-devoile-le-chiffrage-de-son-programme-445313"
+        },
+        {
+          "publishedAt": "2026-11-22T15:27:00+01:00",
+          "source": "AFP via La DH",
+          "summary": "Les enquêteurs examinent un mail retrouvé chez Frédéric Chatillon, proche de Marine Le Pen, qui pourrait éclairer le rôle de l'ancien secrétaire général de Beauvau. Marine Le Pen dit n'avoir jamais reçu d'informations de sa part ; Hugues Moutouh, qui a demandé à être déchargé de ses fonctions, est présumé innocent.",
+          "tab": "presidentielle",
+          "tag": "Suivi",
+          "title": "Fuites vers le RN : un mail au coeur des soupçons visant le préfet Moutouh",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/22/enquete-rn-un-mail-au-coeur-des-soupcons-pesant-sur-le-prefet-moutouh-5ZUDHQCG2ZF67BZBRGHGZ5WYC4/"
+        },
+        {
+          "publishedAt": "2026-11-18T18:00:00+01:00",
+          "source": "Toute l'Europe",
+          "summary": "Après l'adoption du PLFSS par le Sénat (201 voix contre 124), qui y a réintroduit la réforme des retraites de 2023 et l'indexation complète des pensions, sept députés et sept sénateurs se réuniront le 26 novembre. Un accord paraît peu probable, ouvrant la voie à un 49.3 ou à des ordonnances.",
+          "tab": "lois",
+          "tag": "Suivi",
+          "title": "Budget de la Sécu 2027 : commission mixte paritaire prévue mercredi",
+          "url": "https://www.touteleurope.eu/vie-politique-des-etats-membres/le-senat-adopte-le-budget-2027-de-la-securite-sociale-en-premiere-lecture/"
+        },
+        {
+          "publishedAt": "2026-11-20T17:00:00+01:00",
+          "source": "Public Sénat",
+          "summary": "Dans le cadre de l'examen du projet de loi de finances, un rapport sénatorial alerte sur la hausse alarmante de la surpopulation carcérale, le nombre de détenus progressant plus vite que les places de prison.",
+          "tab": "lois",
+          "title": "Budget 2027 : le Sénat juge insuffisante la hausse de 4 % des crédits de la justice",
+          "url": "https://www.publicsenat.fr/actualites/institutions/justice-malgre-un-budget-en-hausse-le-senat-alerte-sur-laugmentation-alarmante-de-la-surpopulation-carcerale"
+        },
+        {
+          "publishedAt": "2026-11-23T05:34:00+01:00",
+          "source": "Belga via La DH",
+          "summary": "La CSC, la FGTB et Synova appellent ce lundi à une mobilisation à Bruxelles contre la politique d'austérité, avec un arrêt de travail chez Skeyes qui bloque tout le trafic aérien. Le Premier ministre Bart De Wever, confronté à une crise budgétaire au sein de la coalition Arizona, assure vouloir poursuivre.",
+          "tab": "international",
+          "title": "Belgique : grande manifestation contre l'austérité, le ciel belge paralysé",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/23/manifestation-nationale-du-23-novembre-une-nouvelle-grande-mobilisation-citoyenne-a-bruxelles-contre-la-politique-dausterite-G5B32GSPDNGITO3P7ZH4MGCD5M/"
+        },
+        {
+          "publishedAt": "2026-11-22T11:37:00+01:00",
+          "source": "AFP via La DH",
+          "summary": "Une deuxième réunion de quatre heures entre le parti Yashar (48 sièges sur 120) et le Likoud s'est achevée sans accord. Gadi Eisenkot a jusqu'au 6 décembre, prolongeable de 14 jours, pour former un gouvernement.",
+          "tab": "international",
+          "tag": "Suivi",
+          "title": "Israël : toujours pas d'accord de coalition entre Eisenkot et le Likoud",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/22/israel-les-partis-deisenkot-et-de-netanyahu-reprennent-leurs-pourparlers-sur-fond-de-divergences-RD2EWZWRJFHKPBGDKNB7S4GE24/"
+        },
+        {
+          "publishedAt": "2026-11-22T21:34:00+01:00",
+          "source": "Belga via La DH",
+          "summary": "Après recomptage en Caroline du Nord, le démocrate Chuck Hubbard bat de 330 voix la républicaine Virginia Foxx, élue depuis 2005. Les démocrates n'avaient plus eu une telle majorité depuis 1992 ; quatre sièges restent à pourvoir en décembre.",
+          "tab": "international",
+          "title": "États-Unis : les démocrates atteignent au moins 258 sièges à la Chambre",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/22/elections-de-mi-mandat-aux-etats-unis-les-democrates-remportent-un-siege-supplementaire-a-la-chambre-apres-un-recomptage-L6RNWPJJS5A45KJGWFQHTISQEY/"
+        },
+        {
+          "publishedAt": "2026-11-22T20:07:00+01:00",
+          "source": "AFP via La DH",
+          "summary": "L'opposition a mobilisé dimanche après la mise sous tutelle de la chaîne Sözcü TV, troisième opération de ce type en un peu plus d'un an. Selon l'association MLSA, 25 journalistes sont actuellement incarcérés en Turquie.",
+          "tab": "international",
+          "title": "Turquie : des milliers de manifestants à Istanbul pour la liberté de la presse",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/22/des-milliers-de-personnes-manifestent-a-istanbul-contre-la-fermeture-de-medias-dopposition-LOEVHY2JUJEBBO3R2ULKNW7EHE/"
+        },
+        {
+          "publishedAt": "2026-11-22T12:37:00+01:00",
+          "source": "AFP via La DH, The Kyiv Independent",
+          "summary": "À Dymer, une frappe nocturne a touché un immeuble de cinq étages, faisant au moins trois morts ; deux autres personnes ont été tuées dans un supermarché de Vychneve et une à Bila Tserkva. Le bilan reste provisoire.",
+          "tab": "guerres",
+          "title": "Région de Kiev : au moins six morts dans des frappes russes",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/22/ukraine-pres-de-kiev-une-frappe-russe-sur-un-immeuble-fait-un-mort-P77LIO5EXREHZJBGP6XPT3K5YU/"
+        },
+        {
+          "publishedAt": "2026-11-22T18:37:00+01:00",
+          "source": "AFP via La DH",
+          "summary": "Selon le parquet de Lublin, les trois objets tombés dans le sud-est du pays sont des missiles de croisière fabriqués au quatrième trimestre 2026 à Doubna, près de Moscou. Leur chute a provoqué une explosion et un incendie, sans faire de blessé.",
+          "tab": "guerres",
+          "tag": "Suivi",
+          "title": "Pologne : les engins tombés vendredi étaient des missiles russes Kh-101",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/22/les-objets-volants-tombes-en-pologne-etaient-des-missiles-de-croisiere-fabriques-en-russie-6XBOIMVHXBAWLKLO3KQOKIARTM/"
+        },
+        {
+          "publishedAt": "2026-11-23T03:07:00+01:00",
+          "source": "AFP via La DH",
+          "summary": "Un navire russe amarré au port de Benghazi a explosé, probablement après une attaque de drones, et un cargo battant pavillon maltais a été visé par des drones maritimes au large. Les attaques ne sont pas revendiquées ; la mission de l'ONU réclame une enquête indépendante.",
+          "tab": "guerres",
+          "title": "Libye : deux navires, dont un russe, attaqués près de Benghazi",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/23/libye-deux-navires-dont-un-russe-attaques-pres-de-benghazi-lonu-demande-une-enquete-T4PL7Z6RRVHP7JMJWUXPO5AX5U/"
+        },
+        {
+          "publishedAt": "2026-11-23T02:44:00+01:00",
+          "source": "Belga et AFP via La DH",
+          "summary": "Donald Trump affirme que l'Iran a lancé la semaine dernière plus de drones et de missiles qu'à tout autre moment de l'année, sans donner de chiffre. Bahreïn fait état de deux blessés après une frappe iranienne sur un site industriel, et Riyad met Téhéran en garde.",
+          "tab": "guerres",
+          "tag": "Suivi",
+          "title": "Golfe : Trump évoque un record de tirs iraniens, deux blessés à Bahreïn",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/23/trump-affirme-que-liran-a-lance-un-record-de-drones-et-de-missiles-la-semaine-passee-2YY5IHBWYNFQTOGKR2UEEMWMXE/"
+        },
+        {
+          "publishedAt": "2026-11-22T14:07:00+01:00",
+          "source": "AFP via La DH",
+          "summary": "Des quartiers résidentiels et un bâtiment des Nations unies ont été touchés dans la nuit. Une source de l'armée soudanaise accuse l'Éthiopie d'avoir lancé l'attaque depuis Bahir Dar, ce qu'Addis-Abeba dément.",
+          "tab": "guerres",
+          "title": "Soudan : des drones frappent Khartoum, un bâtiment de l'ONU endommagé",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/22/soudan-frappes-de-drones-sur-des-habitations-et-un-batiment-de-lonu-a-khartoum-lethiopie-mise-en-cause-HUSO5I5GONEVXJG4M4F2KQJS74/"
+        },
+        {
+          "publishedAt": "2026-11-23T04:44:00+01:00",
+          "source": "Belga via La DH",
+          "summary": "Vendredi, l'indice technologique a perdu 5,28 % et Anthropic a reculé de 8,50 %, près de son prix d'introduction, sur fond de craintes d'une bulle de l'IA. Lundi, la Bourse de Séoul a ouvert en baisse d'environ 3 %, Samsung cédant 3,3 % et SK hynix 2,7 %.",
+          "tab": "economie",
+          "title": "Le Nasdaq chute de 5,28 % et efface ses gains de l'année, Séoul plonge à l'ouverture",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/23/la-bourse-de-seoul-ouvre-en-baisse-de-3-dans-le-sillage-de-wall-street-IT3ZKW477BCEXLNNCUZJB72SEY/"
+        },
+        {
+          "publishedAt": "2026-11-23T00:57:00+01:00",
+          "source": "AFP via La DH",
+          "summary": "Le sommet réunit environ 250 dirigeants à Paris ; sur les 42,5 milliards d'euros recensés, près de 15 milliards correspondent à des investissements nouveaux. ADP annonce 9,5 milliards d'euros, alors que l'investissement des entreprises recule depuis quatre trimestres selon l'Insee.",
+          "tab": "economie",
+          "title": "Choose France : 273 projets et 42,5 milliards d'euros affichés ce lundi",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/23/choose-france-273-projets-valorises-et-pres-de-15-milliards-deuros-dinvestissements-nouveaux-7MXTG7YMI5FCDNKXW2HZCCKQD4/"
+        },
+        {
+          "publishedAt": "2026-11-22T14:51:00+01:00",
+          "source": "Reporterre, AFP",
+          "summary": "Après plus de 49 heures de prolongation, un record, seuls des textes techniques ont été adoptés à Antalya. L'Union européenne et plusieurs pays ont rejeté un projet qui omettait les énergies fossiles, dont les pays producteurs menés par l'Arabie saoudite refusaient la mention explicite.",
+          "tab": "ecologie",
+          "tag": "Suivi",
+          "title": "La COP31 s'achève sans déclaration politique, faute d'accord sur les fossiles",
+          "url": "https://reporterre.net/La-pire-de-toutes-les-COP-touche-a-sa-fin-sans-accord-et-avec-un-retard-historique"
+        },
+        {
+          "publishedAt": "2026-11-22T16:34:00+01:00",
+          "source": "Belga via La DH",
+          "summary": "Le secrétaire général de l'ONU rappelle que les énergies fossiles sont le moteur de la crise climatique. Al Gore dénonce le veto d'une poignée de pétro-États, tandis que le Premier ministre australien Anthony Albanese, coprésident, invoque un contexte géopolitique difficile.",
+          "tab": "ecologie",
+          "title": "Échec de la COP31 : Guterres profondément déçu, Al Gore réclame une réforme",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/22/cop31-le-secretaire-general-de-lonu-profondement-decu-par-lechec-des-negociations-6PYHGPSMB5FSHNVKLQNTVMADMU/"
+        },
+        {
+          "publishedAt": "2026-11-22T08:00:00+01:00",
+          "source": "Reporterre",
+          "summary": "Reportage dans les Alpes-de-Haute-Provence, les Hautes-Alpes et la Drôme auprès d'éleveurs et de bergers pour qui le retour du loup a redynamisé le métier, malgré le stress lié aux attaques.",
+          "tab": "ecologie",
+          "title": "Dans les Alpes, des bergers misent sur la coexistence avec le loup",
+          "url": "https://reporterre.net/Le-loup-a-redynamise-le-metier-ces-bergers-croient-a-la-coexistence-avec-le-predateur"
+        },
+        {
+          "publishedAt": "2026-11-23T00:34:00+01:00",
+          "source": "AFP/Belga via La DH",
+          "summary": "L'attaque, découverte samedi soir en plein déménagement vers un nouveau site, a chiffré des bases de données et coupé la téléphonie sur les trois sites ; le personnel est revenu au papier. Selon la direction, l'ANSSI pointe un fournisseur informatique piraté il y a quelques mois.",
+          "tab": "tech",
+          "title": "Guadeloupe : le CHU frappé par une cyberattaque de grande ampleur",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/23/france-le-chu-de-guadeloupe-victime-dune-cyberattaque-de-grande-ampleur-GFQKBEZRNVA7JOJWPZEX5P22F4/"
+        },
+        {
+          "publishedAt": "2026-11-22T06:17:00+01:00",
+          "source": "AFP via La DH",
+          "summary": "Choi Kyo-jin quitte son poste après des fraudes assistées par IA à des concours, puis 111 cas de mauvaise conduite liés à des appareils électroniques lors du Suneung, passé par environ 500 000 candidats.",
+          "tab": "tech",
+          "title": "Corée du Sud : le ministre de l'Éducation démissionne après un scandale de triche à l'IA",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/22/coree-du-sud-demission-du-ministre-de-leducation-apres-un-scandale-de-triche-a-lia-NXSIPOCSS5GZHFCXFBISDYHQZ4/"
+        },
+        {
+          "publishedAt": "2026-11-20T18:00:00+01:00",
+          "source": "Signal",
+          "summary": "La messagerie ajoute un réglage contre Siri AI sur iOS 27 et active automatiquement sa sécurité d'écran sur Android quand un assistant tente de lire l'écran. Elle demande à Apple, Google et Microsoft un moyen documenté d'exclure une application de ces agents.",
+          "tab": "tech",
+          "title": "Signal bloque les assistants IA des systèmes d'exploitation",
+          "url": "https://signal.org/blog/protecting-your-privacy/"
+        },
+        {
+          "publishedAt": "2026-11-20T18:45:00+01:00",
+          "source": "Associated Press",
+          "summary": "Le président a promis une taxe très lourde, sans en préciser les modalités, et invité les groupes à négocier avec les populations locales, souvent hostiles aux nouveaux centres. UBS estime que les géants de la tech pourraient dépenser jusqu'à 1 800 milliards de dollars dans l'IA l'an prochain.",
+          "tab": "tech",
+          "title": "Trump menace de taxer les entreprises américaines qui bâtissent des data centers à l'étranger",
+          "url": "https://www.yahoo.com/news/politics/articles/trump-says-plans-penalize-us-174503646.html"
+        },
+        {
+          "publishedAt": "2026-11-23T07:00:00+01:00",
+          "source": "Smithsonian Magazine",
+          "summary": "Deux coeurs envoient le sang vers les branchies, le troisième le distribue au reste du corps et s'arrête quand l'animal nage, ce qui explique sa préférence pour la reptation. Son sang est bleu car il transporte l'oxygène grâce à l'hémocyanine, une protéine à base de cuivre.",
+          "tab": "savoir",
+          "title": "La pieuvre a trois coeurs et le sang bleu",
+          "url": "https://www.smithsonianmag.com/science-nature/ten-wild-facts-about-octopuses-they-have-three-hearts-big-brains-and-blue-blood-7625828/"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "items": [
+        {
+          "publishedAt": "2026-11-21T12:00:00+01:00",
+          "source": "THESPIKE.GG",
+          "summary": "ENVY a officialisé Xeppaa, ion2x, v1c, Paincakes et exa comme titulaires pour 2027, avec le retour de Stunner au poste d'entraîneur principal. En Chine, Trace Esports a signé CHICHOO et nobody.",
+          "tab": "esport",
+          "title": "VCT 2027 : ENVY dévoile son effectif complet, Trace Esports recrute",
+          "url": "https://www.thespike.gg/valorant/news/vct-2027-roster-changes/9236"
+        },
+        {
+          "publishedAt": "2026-11-21T23:00:00+01:00",
+          "source": "Flashscore",
+          "summary": "Menés après un but d'Amoura (8e), les Parisiens ont renversé le match grâce à Mayulu sur penalty, Doué puis Ferran Torres, avant la réduction du score d'Abdi dans le temps additionnel. Désiré Doué est sorti sur une blessure qui pourrait être sérieuse. Le PSG compte cinq points d'avance en tête, avec un match de plus que ses poursuivants.",
+          "tab": "football",
+          "title": "Ligue 1 : le PSG s'impose 3-2 à Nice mais perd Doué sur blessure",
+          "url": "https://www.flashscore.com/news/ligue-1-nice-psg-report-november-21-2026/WGzxvevA/"
+        },
+        {
+          "publishedAt": "2026-11-21T23:44:00+01:00",
+          "source": "DH Les Sports+ (Belga)",
+          "summary": "Mads Bistrup a marqué l'unique but à la 40e minute. Lille reste deuxième avec 21 points, à cinq longueurs du PSG, et Lyon, quatrième, revient à un point des Lillois. Brest s'est imposé 1-0 à Strasbourg, Lens et Toulouse ont fait 1-1, tout comme Auxerre et Monaco.",
+          "tab": "football",
+          "title": "Ligue 1 : Lyon gagne à Lille (0-1) pour la première de Carlos Vicens",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/21/les-belges-a-letranger-lille-et-ngoy-sinclinent-0-1-face-a-lolympique-lyonnais-nonge-passeur-avec-brest-L2GWVFSSQRFF3KS2G4CRPIIT6I/"
+        },
+        {
+          "publishedAt": "2026-11-21T21:16:00+01:00",
+          "source": "DH Les Sports+ (Belga)",
+          "summary": "Eze avait ouvert le score pour Arsenal avant que Barnes et Thiaw ne donnent l'avantage à Newcastle, Madueke égalisant à la 78e minute. Les Gunners restent en tête avec 28 points. En Liga, le derby sévillan entre le Séville FC et le Betis s'est terminé sur un 1-1.",
+          "tab": "football",
+          "title": "Premier League : Arsenal accroché 2-2 à Newcastle, toujours leader",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/21/les-belges-a-letranger-pas-de-vainqueur-dans-le-derby-sevillan-partage-des-points-entre-newcastle-et-arsenal-6I7XTB4VSVDG3F7XDV3NRB53XM/"
+        },
+        {
+          "publishedAt": "2026-11-21T16:04:00+01:00",
+          "source": "DH Les Sports+ (Belga)",
+          "summary": "Muniz a ouvert le score pour Fulham (16e) avant l'égalisation d'Eliott Anderson (57e). City, troisième avec 22 points, n'a plus gagné en championnat depuis quatre journées.",
+          "tab": "football",
+          "title": "Manchester City tenu en échec par Fulham, quatrième match sans victoire",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/21/les-belges-a-letranger-accroche-par-fulham-manchester-city-aligne-un-quatrieme-match-de-suite-sans-victoire-R6FU5T5DRVCUNOL6V3RZMEQHUM/"
+        },
+        {
+          "publishedAt": "2026-11-21T23:55:00+01:00",
+          "source": "DH Les Sports+ (Belga)",
+          "summary": "Menés dès la 6e minute, les Madrilènes ont égalisé par Bellingham puis gagné grâce à Carlos Espi à la 85e. Mbappé a manqué un penalty en première période. Le Real rejoint provisoirement le FC Barcelone en tête avec 33 points. En Serie A, Naples a battu le Torino 1-0 sur un but de McTominay.",
+          "tab": "football",
+          "title": "Liga : le Real Madrid renverse le Celta (2-1) malgré un penalty raté de Mbappé",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/21/les-belges-a-letranger-le-real-madrid-et-thibaut-courtois-se-defont-difficilement-du-celta-vigo-PYGXOCGZQNBWXGAOVTMXXYOD6Q/"
+        },
+        {
+          "publishedAt": "2026-11-20T06:00:00+01:00",
+          "source": "Reporterre",
+          "summary": "Reporterre passe en revue les programmes de Bruno Retailleau et d'Édouard Philippe et estime que leurs plans de réduction des dépenses menacent les budgets consacrés à la transition et à l'adaptation au changement climatique. Le média est engagé sur les questions environnementales.",
+          "tab": "presidentielle",
+          "title": "À droite, la chasse aux économies relègue l'écologie au second plan",
+          "url": "https://reporterre.net/Bruno-Retailleau-Edouard-Philippe-A-droite-la-traque-aux-economies-degomme-l-ecologie"
+        },
+        {
+          "publishedAt": "2026-11-20T08:00:00+01:00",
+          "source": "Vert",
+          "summary": "Alors qu'un rapprochement entre LFI et les Écologistes est en discussion, Vert compare les propositions des deux candidats, notamment sur le nucléaire, les écorégions et les zones à faibles émissions.",
+          "tab": "presidentielle",
+          "title": "Mélenchon et Tondelier : sept différences entre leurs programmes écologiques",
+          "url": "https://vert.eco/politique/nucleaire-ecoregions-zfe-on-a-joue-au-jeu-des-7-differences-entre-les-programmes-de-jean-luc-melenchon-et-marine-tondelier/"
+        },
+        {
+          "publishedAt": "2026-11-20T09:34:00+01:00",
+          "source": "Reporterre",
+          "summary": "Dans un entretien à Reporterre, l'artiste dit son inquiétude face à l'extrême droite et explique son soutien à la candidature de Jean-Luc Mélenchon, ainsi que son rapport à l'écologie.",
+          "tab": "presidentielle",
+          "title": "Le rappeur Médine appelle à voter pour LFI",
+          "url": "https://reporterre.net/Le-rappeur-Medine-appelle-a-voter-LFI-Cette-presidentielle-pour-nous-c-est-une-question"
+        },
+        {
+          "publishedAt": "2026-11-22T03:44:00+01:00",
+          "source": "DH (AFP)",
+          "summary": "Selon La Tribune Dimanche, le chef de l'État songe à convoquer le Congrès en janvier pour adopter une règle d'or s'inspirant d'un projet de loi constitutionnelle de 2011 resté sans suite. Le Premier ministre Sébastien Lecornu sonderait déjà les parlementaires. L'Élysée n'a pas commenté, le RN a salué l'idée, que Marine Le Pen réclamait début novembre.",
+          "tab": "lois",
+          "title": "Macron envisagerait d'inscrire une règle d'or budgétaire dans la Constitution",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/22/france-macron-veut-inscrire-une-regle-dor-budgetaire-dans-la-constitution-IWXKDZD6UVAHBLDLDLVGP3ET7U/"
+        },
+        {
+          "publishedAt": "2026-11-21T17:46:00+01:00",
+          "source": "DH (Belga)",
+          "summary": "Après l'arrêt de la Cour internationale de justice reconnaissant un génocide commis par la Birmanie, Jean-Noël Barrot demande une réunion du Conseil au titre de l'article 94 de la Charte, qui permet d'agir quand un État ne respecte pas un arrêt de la CIJ. La Birmanie juge la décision injuste, et Pékin l'a critiquée.",
+          "tab": "international",
+          "title": "Génocide des Rohingyas : la France saisit le Conseil de sécurité de l'ONU",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/21/violences-envers-les-rohingyas-genocide-des-rohingyas-la-france-saisit-le-conseil-de-securite-de-lonu-S46BPSVJCRGRLEFXIPLLOJFE7Q/"
+        },
+        {
+          "publishedAt": "2026-11-21T18:14:00+01:00",
+          "source": "DH (Belga)",
+          "summary": "Selon le Washington Post, Pete Hegseth a imposé de nouvelles limites par une note classifiée. Le Pentagone assure que le renseignement, le NORAD et la coopération au sein de l'OTAN ne sont pas concernés. Les relations entre les deux pays sont tendues par les droits de douane américains.",
+          "tab": "international",
+          "title": "Le Pentagone restreint sa coopération militaire avec le Canada",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/21/le-ministere-de-la-defense-americain-va-limiter-la-cooperation-militaire-avec-le-canada-MLT5SBIAZZFN5HW72WVZNUXIDU/"
+        },
+        {
+          "publishedAt": "2026-11-22T01:54:00+01:00",
+          "source": "DH (Belga)",
+          "summary": "Chargé de former le gouvernement après des législatives sans majorité fin octobre, le centriste Gadi Eisenkot ouvre des pourparlers avec le Likoud dès dimanche, tout en excluant une coalition dirigée par Benjamin Netanyahu. Il dispose d'environ un mois.",
+          "tab": "international",
+          "title": "Israël : Eisenkot invite le Likoud à négocier une coalition, sans Netanyahu",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/22/elections-legislatives-en-israel-eisenkot-invite-le-parti-de-netanyahu-a-des-negociations-de-coalition-UZHLCQR7Z5EAFISX55OQW6RUU4/"
+        },
+        {
+          "publishedAt": "2026-11-20T20:47:00+01:00",
+          "source": "Meduza",
+          "summary": "Selon le Financial Times, la Maison Blanche veut un accord entre Moscou et Kiev avant que les démocrates prennent le contrôle du Congrès. Des responsables européens craignent que cela impose à l'Ukraine des concessions majeures. Meduza est un média russe indépendant en exil.",
+          "tab": "international",
+          "title": "Ukraine : Washington viserait un accord de paix d'ici début janvier",
+          "url": "https://meduza.io/en/news/2026/11/20/european-official-fears-ukraine-may-have-to-make-major-concessions-as-trump-pushes-for-a-peace-deal-by-early-january-before-democrats-take-control-of-congress-ft-reports"
+        },
+        {
+          "publishedAt": "2026-11-20T20:34:00+01:00",
+          "source": "Meduza",
+          "summary": "Copenhague lui donne sept jours pour quitter le pays après l'arrestation de deux Danois soupçonnés d'avoir projeté, pour le compte du renseignement russe, l'assassinat du rappeur ukrainien Kyivstoner. Moscou promet une riposte.",
+          "tab": "international",
+          "title": "Le Danemark expulse l'attaché militaire russe",
+          "url": "https://meduza.io/en/news/2026/11/20/denmark-to-expel-russia-s-military-attache-after-arrests-in-alleged-plot-to-kill-ukrainian-rapper"
+        },
+        {
+          "publishedAt": "2026-11-20T22:30:00+01:00",
+          "source": "The Kyiv Independent",
+          "summary": "Une seconde frappe a visé le même quartier densément peuplé après la première, tuant un enfant de 7 ans et un ambulancier et faisant des dizaines de blessés. Volodymyr Zelensky dénonce la multiplication de ces frappes répétées.",
+          "tab": "guerres",
+          "title": "Kryvyï Rih : une frappe russe en double impact tue un enfant et un secouriste",
+          "url": "https://kyivindependent.com/russian-ballistic-missile-strikes-on-kryvyi-rih-kill-7-year-old-paramedic-injure-42-others-in-double-tap-attack/"
+        },
+        {
+          "publishedAt": "2026-11-21T18:47:00+01:00",
+          "source": "DH (AFP)",
+          "summary": "Le Sparta II, parti de Saint-Pétersbourg pour Kaliningrad, a pris feu dans les eaux internationales du golfe de Finlande et son équipage a été évacué. Les garde-frontières finlandais attribuent l'attaque à un drone ukrainien. Quelques heures plus tard, un hélicoptère russe est soupçonné d'avoir violé l'espace aérien finlandais.",
+          "tab": "guerres",
+          "title": "Baltique : un drone ukrainien frappe un cargo russe sous sanctions",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/21/la-finlande-a-detecte-une-attaque-de-drone-contre-un-cargo-russe-en-mer-baltique-3TPDB5UN3VETJIWCLQQJDY3VXI/"
+        },
+        {
+          "publishedAt": "2026-11-22T05:04:00+01:00",
+          "source": "DH (Belga)",
+          "summary": "Le ministère de l'Intérieur fait état de dégâts matériels sans victime. Les Gardiens de la révolution affirment avoir visé des batteries Patriot américaines sur les bases d'al-Riffa et d'Awali.",
+          "tab": "guerres",
+          "title": "Bahreïn accuse l'Iran d'avoir frappé un site industriel",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/22/guerre-au-moyen-orient-bahrein-accuse-liran-davoir-mene-une-frappe-contre-un-de-ses-sites-industriels-MH46NCECC5ANZHBSU2C6A4ANRA/"
+        },
+        {
+          "publishedAt": "2026-11-21T18:47:00+01:00",
+          "source": "DH (AFP)",
+          "summary": "Selon l'UKMTO, deux navires ont été atteints au large de Khasab, à Oman, sans blessé signalé. Une délégation qatarie a mené des discussions à Téhéran, mais l'Iran conditionne la réouverture du détroit à la levée du blocus et des sanctions.",
+          "tab": "guerres",
+          "tag": "Suivi",
+          "title": "Ormuz : deux nouveaux pétroliers touchés, la médiation qatarie piétine",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/21/deux-nouveaux-petroliers-touches-dans-le-detroit-dormuz-VVETON5HBREPTGAN52XLR6OEBU/"
+        },
+        {
+          "publishedAt": "2026-11-21T22:44:00+01:00",
+          "source": "DH (Belga)",
+          "summary": "Les ministres de la Défense britannique et ukrainien l'ont annoncé à Kiev. Une partie de la production sera installée au Royaume-Uni, hors de portée des frappes russes. Aucun montant ni calendrier n'a été communiqué.",
+          "tab": "guerres",
+          "title": "Londres et Kiev vont produire des drones ensemble",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/21/invasion-de-lukraine-londres-et-kiev-vont-fabriquer-des-drones-ensemble-QUDKJ5WOF5CIPBU3PY7YEK7JTQ/"
+        },
+        {
+          "publishedAt": "2026-11-22T00:15:00+01:00",
+          "source": "DH (Belga)",
+          "summary": "Selon le New York Times et le Wall Street Journal, le gendarme boursier américain cherche à savoir si le groupe a induit ses investisseurs en erreur. Nvidia a perdu plus de 1 300 milliards de dollars de valorisation en deux semaines, depuis le départ de Jensen Huang.",
+          "tab": "economie",
+          "title": "Nvidia visé par une enquête de la SEC sur ses pratiques comptables",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/22/nvidia-le-gendarme-boursier-americain-va-enqueter-sur-les-pratiques-comptables-de-nvidia-XXUAYGTP55EZZKYBPB54CPUA2U/"
+        },
+        {
+          "publishedAt": "2026-11-21T18:47:00+01:00",
+          "source": "DH (AFP)",
+          "summary": "Antonio Costa propose 204 milliards d'euros d'économies sur les 2 000 milliards prévus par la Commission, ainsi qu'une taxe de 3 % sur le chiffre d'affaires des géants du numérique. Paris juge le texte très décevant, notamment sur la PAC, tandis que Friedrich Merz le trouve encore trop coûteux. Le sujet sera au menu du sommet européen de jeudi et vendredi.",
+          "tab": "economie",
+          "title": "Budget européen 2028-2034 : Paris et Berlin rejettent le nouveau compromis",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/21/budget-europeen-une-taxe-sur-les-geants-du-numerique-pour-debloquer-les-discussions-SNJX5AQ26BH35MEQOGJF3VAPJQ/"
+        },
+        {
+          "publishedAt": "2026-11-21T18:47:00+01:00",
+          "source": "DH (AFP)",
+          "summary": "C'est près de cinq fois les recettes du premier jour de GTA V en 2013, selon l'AFP. Le jeu comptait 32,5 millions de précommandes. Sa note utilisateurs sur Metacritic reste toutefois basse, à 5,5 sur 10.",
+          "tab": "economie",
+          "title": "GTA VI rapporte 3,79 milliards de dollars le jour de sa sortie",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/21/gta-vi-pulverise-le-record-de-ventes-pour-un-premier-jour-et-ramasse-379-milliards-de-dollars-6DCEDEMGRFE2PCC3EGWKLCKN2M/"
+        },
+        {
+          "publishedAt": "2026-11-22T04:57:00+01:00",
+          "source": "DH (AFP)",
+          "summary": "Le texte présenté dans la nuit à Antalya pousse le captage et le stockage du carbone et fixe un objectif de 35 % d'électricité dans la consommation finale d'énergie d'ici 2035. L'UE a prévenu qu'elle pourrait le rejeter s'il manquait d'ambition. Une plénière était prévue dimanche matin, avec un risque de quorum insuffisant.",
+          "tab": "ecologie",
+          "tag": "Suivi",
+          "title": "COP31 : le dernier projet de texte ne mentionne toujours pas les énergies fossiles",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/22/climat-un-nouveau-texte-sur-la-table-a-la-cop31-toujours-sans-les-energies-fossiles-45STOIDESVBOZDSL5SOHPPCTLQ/"
+        },
+        {
+          "publishedAt": "2026-11-21T20:00:00+01:00",
+          "source": "DH (AFP)",
+          "summary": "Au moins 100 personnes ont quitté leur logement sur l'île de Santa Cruz. Depuis l'état d'urgence décrété fin août, l'Équateur recense 22 morts et plus de 105 000 personnes touchées par l'épisode El Niño, attendu parmi les plus intenses jamais mesurés.",
+          "tab": "ecologie",
+          "title": "Galapagos : nouvelles inondations liées à El Niño, une centaine d'évacués",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/21/galapagos-inondations-et-evacuations-apres-des-pluies-intenses-generees-par-el-nino-RYMJQE5UNRBFPMZJYFSBQRAQ7A/"
+        },
+        {
+          "publishedAt": "2026-11-20T14:36:00+01:00",
+          "source": "Reporterre",
+          "summary": "Le parquet de Perpignan a confié à l'Office français de la biodiversité une enquête sur des chasses payantes organisées dans deux réserves naturelles des Pyrénées-Orientales, après des révélations de Reporterre.",
+          "tab": "ecologie",
+          "title": "Chasses commerciales dans des réserves naturelles : une enquête ouverte",
+          "url": "https://reporterre.net/Chasse-une-enquete-ouverte-apres-les-revelations-de-Reporterre"
+        },
+        {
+          "publishedAt": "2026-11-21T18:47:00+01:00",
+          "source": "DH (AFP)",
+          "summary": "Après vingt ans d'écrans en classe, Oslo veut inscrire dans la loi l'accès aux manuels imprimés et abandonne l'objectif d'un appareil par élève en primaire. Un projet de loi doit aussi interdire aux moins de 16 ans des plateformes comme TikTok, Snapchat ou Roblox. Les élèves norvégiens sont passés sous la moyenne de l'OCDE dans les trois domaines de Pisa 2025.",
+          "tab": "tech",
+          "title": "La Norvège fait marche arrière sur le tout numérique à l'école",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/21/le-numerique-a-tout-prix-la-norvege-revoit-sa-copie-YW46PONPGNEYLIZ752RHAND5LE/"
+        },
+        {
+          "publishedAt": "2026-11-21T00:54:00+01:00",
+          "source": "The Kyiv Independent",
+          "summary": "La version militaire de Starlink coupait les terminaux au-delà d'environ 160 km/h, gênant la défense antidrones ukrainienne. Le futur président démocrate de la commission du renseignement, James Himes, refuse de financer des systèmes que l'État ne contrôle pas entièrement et demande des explications à Elon Musk.",
+          "tab": "tech",
+          "title": "Starshield bridé en Ukraine : des élus américains menacent les financements de SpaceX",
+          "url": "https://kyivindependent.com/incoming-democratic-chairman-warns-us-lawmakers-could-halt-spacex-funding-following-starshield-slowdown-in-ukraine-cnn-reports/"
+        },
+        {
+          "publishedAt": "2026-11-20T11:37:00+01:00",
+          "source": "Next",
+          "summary": "Microsoft regroupe huit protections de sécurité dans un indicateur unique, baptisé Baseline protection, que les logiciels pourront interroger avant de se lancer.",
+          "tab": "tech",
+          "title": "Windows 11 : des applications pourront refuser de tourner sur un PC mal protégé",
+          "url": "https://next.ink/268739/ce-que-la-future-baseline-protection-de-windows-11-signifie-pour-les-applications/"
+        },
+        {
+          "publishedAt": "2026-11-22T06:45:00+01:00",
+          "source": "University of Oxford (et Britannica)",
+          "summary": "Un enseignement existait déjà à Oxford sous une forme ou une autre en 1096, selon l'université elle-même. Tenochtitlan, la capitale aztèque, n'a été fondée que vers 1325, plus de deux siècles plus tard.",
+          "tab": "savoir",
+          "title": "L'université d'Oxford est plus ancienne que la cité aztèque de Tenochtitlan",
+          "url": "https://www.ox.ac.uk/about/organisation/history"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "items": [
+        {
+          "publishedAt": "2026-11-18T14:58:00+01:00",
+          "source": "Sheep Esports",
+          "summary": "Karmine Corp conserve Canna, kyeahoo, Caliste et Busio pour 2027 et recrute le jungler français SkewMond, ancien remplaçant de G2, à la place de Yike parti chez Fnatic. Le staff technique n'est pas encore confirmé.",
+          "tab": "esport",
+          "title": "LEC 2027 : Karmine Corp garde quatre titulaires et recrute SkewMond",
+          "url": "https://www.sheepesports.com/es/articles/karmine-corp-completed-roster-for-lec-2027/en"
+        },
+        {
+          "publishedAt": "2026-11-20T15:37:00+01:00",
+          "source": "DH Les Sports+ (AFP)",
+          "summary": "Le tirage effectué vendredi à Nyon oppose les Bleus de Zidane aux champions du monde espagnols, les 25 et 28 mars 2027, avec le match retour en France. Les autres affiches sont Norvège-Angleterre, Belgique-Allemagne et Pays-Bas-Portugal. La France a perdu ses trois derniers duels contre l'Espagne.",
+          "tab": "football",
+          "title": "Ligue des nations : la France affrontera l'Espagne en quarts de finale",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/20/ligue-des-nations-les-bleus-de-zidane-au-defi-de-lespagne-OA5DJT6BWNGHXHCG7GR2DKBCYI/"
+        },
+        {
+          "publishedAt": "2026-11-20T22:59:00+01:00",
+          "source": "Footeo",
+          "summary": "En ouverture de la 11e journée, Troyes s'impose grâce à un doublé d'Antoine Mille et un penalty de Renaud Ripart, après l'ouverture du score de Josh Maja. Le Havre, qui débutait avec Valérien Ismaël, reste seul dernier avec 2 points et toujours sans victoire.",
+          "tab": "football",
+          "title": "Ligue 1 : Troyes bat Le Havre 3-1, la première d'Ismaël tourne court",
+          "url": "https://news.footeo.com/2026/11/20/troyes-le-havre-3-1-double-dantoine-mille-la-premiere-de-valerien-ismael-tourne-court-18160"
+        },
+        {
+          "publishedAt": "2026-11-18T12:33:00+01:00",
+          "source": "La Libre Belgique",
+          "summary": "Le baromètre Ifop-Fiducial pour Le Figaro, LCI et Sud Radio place Marine Le Pen entre 32 et 36 % au premier tour, Jean-Luc Mélenchon entre 17 et 19,5 % et Édouard Philippe entre 10 et 15 %. David Lisnard progresse (8 à 12 %) et Teddy Riner est mesuré autour de 4 %.",
+          "tab": "presidentielle",
+          "title": "Sondage Ifop : Le Pen en tête, Mélenchon deuxième, Philippe recule",
+          "url": "https://www.lalibre.be/international/europe/elections-france/2026/11/18/un-candidat-en-chute-libre-une-entree-surprenante-ce-que-president-les-derniers-sondages-pour-la-presidentielle-2027-2DK6TJLX5ZB43FPVZUP3TRUE3M/"
+        },
+        {
+          "publishedAt": "2026-11-20T08:00:00+01:00",
+          "source": "Reporterre",
+          "summary": "Après la déclaration de Marine Tondelier se disant prête à soutenir Jean-Luc Mélenchon, les adhérents des Écologistes voteront début décembre entre sa candidature, un soutien à Raphaël Glucksmann ou un ralliement aux insoumis. L'annonce a suscité de nombreux soutiens et quelques démissions.",
+          "tab": "presidentielle",
+          "tag": "Suivi",
+          "title": "Écologistes : les adhérents trancheront début décembre",
+          "url": "https://reporterre.net/Marine-Tondelier-prete-a-rallier-Jean-Luc-Melenchon-de-nombreux-soutiens-et-quelques"
+        },
+        {
+          "publishedAt": "2026-11-20T13:37:00+01:00",
+          "source": "DH Les Sports+ (AFP)",
+          "summary": "Le préfet Hugues Moutouh, ancien secrétaire général du ministère de l'Intérieur, est soupçonné d'avoir transmis au RN des informations sur des enquêtes visant le parti. Il a été convoqué vendredi par Laurent Nuñez ; il n'est pas mis en examen et reste présumé innocent. Le RN dément.",
+          "tab": "presidentielle",
+          "tag": "Suivi",
+          "title": "Fuites vers le RN : l'ex-numéro deux de Beauvau convoqué par Nuñez",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/20/enquete-rn-beauvau-dans-la-tourmente-GBTIADR5OFCOPO37P45Q7M27UY/"
+        },
+        {
+          "publishedAt": "2026-11-20T17:58:50+01:00",
+          "source": "Next",
+          "summary": "Le régulateur appliquera les règles de pluralisme politique aux créateurs de contenus influents pendant la présidentielle 2027. Certains, dont le coproducteur de l'émission Backseat, annoncent qu'ils ne les respecteront pas.",
+          "tab": "presidentielle",
+          "title": "L'Arcom étend les règles de pluralisme aux influenceurs pendant la campagne",
+          "url": "https://next.ink/268809/presidentielle-2027-larcom-simpose-aupres-des-createurs-de-contenus-et-influenceurs/"
+        },
+        {
+          "publishedAt": "2026-11-20T20:39:00+01:00",
+          "source": "Politique Matin",
+          "summary": "Le Sénat a voté vendredi le texte sans modification, par 205 voix contre 110, ce qui achève son parcours parlementaire. Il présume que policiers et gendarmes ayant fait feu ont agi dans un cas prévu par la loi, la police municipale étant exclue. La gauche annonce une saisine du Conseil constitutionnel.",
+          "tab": "lois",
+          "tag": "Suivi",
+          "title": "La présomption d'usage légal des armes par les forces de l'ordre définitivement adoptée",
+          "url": "https://www.politiquematin.fr/senat-presomption-usage-armes-vote-205-110-20-novembre-2026-2033"
+        },
+        {
+          "publishedAt": "2026-11-19T18:23:00+01:00",
+          "source": "Public Sénat",
+          "summary": "Le Sénat a adopté par 344 voix contre 0 la proposition de loi de Christophe Naegelen prolongeant en 2027 l'utilisation des titres-restaurant pour tous les produits alimentaires, puis la rendant permanente au 1er janvier 2028. Une commission mixte paritaire doit se réunir avant la fin de l'année.",
+          "tab": "lois",
+          "title": "Titres-restaurant : le Sénat vote à l'unanimité leur usage pour les courses",
+          "url": "https://www.publicsenat.fr/actualites/economie/le-senat-vote-la-perennisation-de-lutilisation-des-titres-restaurant-pour-lachat-des-produits-alimentaires"
+        },
+        {
+          "publishedAt": "2026-11-20T11:12:00+01:00",
+          "source": "Next",
+          "summary": "La proposition de loi qui instaurerait une présomption d'utilisation des oeuvres protégées par les fournisseurs d'IA n'a toujours pas pu être votée par les députés. Un nouveau créneau est envisagé en février.",
+          "tab": "lois",
+          "tag": "Suivi",
+          "title": "IA et droit d'auteur : le texte de Laure Darcos encore repoussé à l'Assemblée",
+          "url": "https://next.ink/266327/ia-et-droit-dauteur-mistral-et-les-industriels-du-numerique-accentuent-le-lobbying/"
+        },
+        {
+          "publishedAt": "2026-11-20T02:57:00+01:00",
+          "source": "DH Les Sports+ (AFP)",
+          "summary": "Dix ans après le référendum sur le Brexit, Londres et Bruxelles ont conclu trois accords : contrôles allégés sur les exportations alimentaires britanniques, mobilité de jusqu'à 100 000 jeunes par an de chaque côté et quotas d'émissions carbone. Aucun accord n'a été trouvé sur les frais de scolarité des étudiants européens.",
+          "tab": "international",
+          "title": "Sommet de Bruxelles : premiers accords entre l'UE et le Royaume-Uni",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/20/premiers-accords-en-vue-entre-lue-et-la-grande-bretagne-lors-dun-sommet-a-bruxelles-CJPUQMILKZF4HPQLCZYK3E7XP4/"
+        },
+        {
+          "publishedAt": "2026-11-20T18:14:00+01:00",
+          "source": "DH Les Sports+ (Belga)",
+          "summary": "Copenhague souhaite suspendre l'attribution de visas Schengen aux ressortissants russes, en réponse à l'invasion de l'Ukraine.",
+          "tab": "international",
+          "title": "Le Danemark veut suspendre les visas Schengen accordés aux Russes",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/20/invasion-de-lukraine-le-danemark-veut-suspendre-lattribution-de-visas-schengen-aux-russes-YB4JTRCSGJDCTFAHAYMABAIPOA/"
+        },
+        {
+          "publishedAt": "2026-11-20T18:34:00+01:00",
+          "source": "DH Les Sports+ (Belga)",
+          "summary": "Le maire de Belgrade a été inculpé pour des violences commises contre une conseillère municipale de l'opposition.",
+          "tab": "international",
+          "title": "Serbie : le maire de Belgrade inculpé pour violences sur une élue d'opposition",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/20/serbie-le-maire-de-belgrade-inculpe-pour-violences-sur-une-elue-dopposition-LJS3SN5HABFG3FLQD7RNTV5NCQ/"
+        },
+        {
+          "publishedAt": "2026-11-20T14:27:00+01:00",
+          "source": "DH Les Sports+ (AFP)",
+          "summary": "Selon Volodymyr Zelensky, la Russie a lancé l'une de ses attaques les plus massives contre l'Ukraine. Sept personnes ont été tuées à Kiev, où trois ponts sur le Dniepr ont été touchés, et deux à Lviv ; des coupures d'électricité d'urgence ont frappé Kiev et dix autres régions.",
+          "tab": "guerres",
+          "tag": "Suivi",
+          "title": "Ukraine : plus de 110 missiles et 400 drones, au moins neuf morts",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/20/une-pluie-de-missiles-et-drones-russes-sabat-sur-lukraine-au-moins-huit-morts-GEMJK3EOMRAGNLQAP4CR3DQJPE/"
+        },
+        {
+          "publishedAt": "2026-11-20T16:57:00+01:00",
+          "source": "DH Les Sports+ (AFP)",
+          "summary": "Deux missiles russes et probablement un drone sont tombés dans le sud-est de la Pologne pendant l'attaque contre l'Ukraine, sans faire de victime. Mark Rutte a condamné de graves violations de l'espace aérien polonais et se rend à Varsovie ce samedi ; l'UE, Londres, Paris et Berlin ont exprimé leur solidarité.",
+          "tab": "guerres",
+          "title": "Deux missiles russes tombent en Pologne, l'OTAN fait décoller des avions",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/20/chute-de-missiles-russes-en-pologne-varsovie-denonce-une-provocation-ses-allies-font-bloc-H4KXU2K2UBAIXJ46XUH6XC7VII/"
+        },
+        {
+          "publishedAt": "2026-11-20T07:56:24+01:00",
+          "source": "Meduza",
+          "summary": "L'usine de Dorogobouj, qui produit des engrais azotés et des composants d'explosifs, a été touchée et un incendie s'est déclaré, selon Meduza, média russe indépendant en exil.",
+          "tab": "guerres",
+          "title": "Des drones ukrainiens frappent une usine chimique russe près de Smolensk",
+          "url": "https://meduza.io/en/news/2026/11/20/ukrainian-drones-hit-russian-fertilizer-plant-that-also-makes-components-for-explosives"
+        },
+        {
+          "publishedAt": "2026-11-20T18:54:00+01:00",
+          "source": "DH Les Sports+ (AFP)",
+          "summary": "Un pétrolier a été frappé vendredi par un projectile d'origine inconnue à environ 15 km au nord de Khasab (Oman), selon l'agence britannique UKMTO. Un incendie s'est déclaré à bord, sans victime signalée. L'Iran revendique le contrôle du détroit depuis le début de la guerre fin février.",
+          "tab": "guerres",
+          "title": "Détroit d'Ormuz : un pétrolier touché par un projectile",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/20/guerre-au-moyen-orient-un-petrolier-touche-par-un-projectile-dans-le-detroit-dormuz-LXUAMIHT5FC3LNJSD4AC2JNEC4/"
+        },
+        {
+          "publishedAt": "2026-11-20T18:07:00+01:00",
+          "source": "DH Les Sports+ (AFP)",
+          "summary": "La coalition dirigée par l'Arabie saoudite a frappé un port contrôlé par les Houthis, qui menacent de riposter. La frappe survient au lendemain du tir attribué aux Houthis contre la plus haute tour de Riyad.",
+          "tab": "guerres",
+          "tag": "Suivi",
+          "title": "Yémen : la coalition menée par Riyad frappe un port tenu par les Houthis",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/20/la-coalition-menee-par-riyad-frappe-un-port-tenu-par-les-houthis-qui-menacent-de-riposter-ADUPQ7IMURCDPNUP2CJSCX63KM/"
+        },
+        {
+          "publishedAt": "2026-11-20T18:31:00+01:00",
+          "source": "ABC Bourse",
+          "summary": "La Bourse de Paris a reculé de 1,89 % vendredi, à 7 927,75 points, pour une cinquième séance de baisse d'affilée et sa deuxième pire semaine de l'année. Worldline a chuté de 15,47 % après des révélations du Financial Times sur sa trésorerie, que l'entreprise conteste, et Vallourec de 14,57 %.",
+          "tab": "economie",
+          "title": "Le CAC 40 repasse sous les 8 000 points et perd plus de 5 % sur la semaine",
+          "url": "https://www.abcbourse.com/marches/le-cac-40-chute-de-plus-de-5-et-signe-sa-deuxieme-pire-semaine-de-l-annee_706467"
+        },
+        {
+          "publishedAt": "2026-11-20T22:00:00+01:00",
+          "source": "CNBC",
+          "summary": "La vague de ventes sur les valeurs de l'IA s'est amplifiée vendredi : le S&P 500 et le Dow Jones ont clôturé à plus de 10 % sous leurs records, et le Nasdaq a effacé tous ses gains de 2026. L'action Anthropic a reculé lors de sa première séance complète.",
+          "tab": "economie",
+          "title": "Wall Street : le S&P 500 et le Dow Jones entrent en correction",
+          "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+        },
+        {
+          "publishedAt": "2026-11-20T18:32:00+01:00",
+          "source": "MoneyVox",
+          "summary": "L'action a perdu 23,24 %, à 3,20 euros. L'éditeur affiche une perte opérationnelle semestrielle de 156 millions d'euros et prévoit 250 millions de ventes au prochain trimestre, quand le marché en attendait 388 millions.",
+          "tab": "economie",
+          "title": "Ubisoft s'effondre de 23 % après des prévisions décevantes",
+          "url": "https://www.moneyvox.fr/bourse/actualites/111354/cac-40-en-baisse-de-pres-de-2-krach-de-ia-ubisoft-le-journal-de-la-bourse-du-vendredi-20-novembre-2026"
+        },
+        {
+          "publishedAt": "2026-11-20T18:55:00+01:00",
+          "source": "DH Les Sports+ (Belga)",
+          "summary": "La Française Laurence Boone et l'Allemand Markus Brunnermeier sont assurés d'intégrer le directoire de la Banque centrale européenne.",
+          "tab": "economie",
+          "title": "BCE : Laurence Boone et Markus Brunnermeier assurés d'entrer au directoire",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/20/bce-la-francaise-l-boone-et-lallemand-m-brunnermeier-assures-dintegrer-le-directoire-5PXE2NSZ3BFOHERZEEHG5HMQYQ/"
+        },
+        {
+          "publishedAt": "2026-11-20T18:17:00+01:00",
+          "source": "DH Les Sports+ (AFP), Reporterre",
+          "summary": "Faute d'accord le dernier jour prévu, près de 200 pays reprennent les discussions à Antalya, où une nouvelle proposition de compromis doit être publiée samedi. Le projet ne mentionne plus pétrole, gaz ni charbon et vise 35 % d'électricité dans la consommation finale d'énergie en 2035, contre environ 20 % aujourd'hui.",
+          "tab": "ecologie",
+          "tag": "Suivi",
+          "title": "COP31 : pas d'accord vendredi, les négociations prolongées ce samedi",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/20/climat-a-la-cop31-ultimes-heures-pour-un-accord-incertain-HILM3ZYKG5FV5PJIMQUJYMAT74/"
+        },
+        {
+          "publishedAt": "2026-11-20T12:00:00+01:00",
+          "source": "Reporterre",
+          "summary": "Mariam Touré a été retirée de la COP31 à la demande de la délégation française après avoir interpellé la ministre Monique Barbut sur un fonds destiné aux pays vulnérables.",
+          "tab": "ecologie",
+          "title": "Une militante des droits humains exclue de la COP31 par la France",
+          "url": "https://reporterre.net/Mariam-Toure-militante-des-droits-humains-exclue-de-la-COP31-apres-un-echange-avec"
+        },
+        {
+          "publishedAt": "2026-11-21T06:00:00+01:00",
+          "source": "Reporterre",
+          "summary": "En mer d'Alboran, un reportage documente comment ces filets, largement utilisés illégalement, tuent chaque année des milliers d'animaux marins, dont tortues et dauphins.",
+          "tab": "ecologie",
+          "title": "Filets dérivants : un fléau illégal pour la faune de Méditerranée",
+          "url": "https://reporterre.net/On-voit-une-tortue-un-dauphin-Et-tout-est-mort-les-filets-derivants-fleau-pour-la-vie-en"
+        },
+        {
+          "publishedAt": "2026-11-20T12:00:00+01:00",
+          "source": "Reporterre",
+          "summary": "Un propulseur de Starship a explosé puis coulé dans le golfe du Mexique ; une association environnementale estime que les débris mettent en danger la faune marine.",
+          "tab": "ecologie",
+          "title": "Explosion d'un propulseur SpaceX : les tortues marines menacées",
+          "url": "https://reporterre.net/Les-tortues-marines-victimes-collaterales-de-l-explosion-d-un-propulseur-SpaceX"
+        },
+        {
+          "publishedAt": "2026-11-20T12:00:00+01:00",
+          "source": "Reporterre",
+          "summary": "Jean-Philippe André, ancien dirigeant de Haribo et du lobby de l'agroalimentaire, devient coprésident du comité de suivi de la stratégie nationale pour l'alimentation.",
+          "tab": "ecologie",
+          "title": "L'ex-patron de Haribo nommé à la tête du suivi de la stratégie alimentaire",
+          "url": "https://reporterre.net/L-ex-patron-de-Haribo-et-du-lobby-de-l-agroalimentaire-nomme-a-la-tete-du-programme-de-l-Etat-sur-l-alimentation"
+        },
+        {
+          "publishedAt": "2026-11-20T16:42:12+01:00",
+          "source": "Next",
+          "summary": "Un chercheur a dévoilé FastUnlock, une faille qui permet à une personne ayant un accès physique au PC d'exécuter du code depuis l'écran de verrouillage grâce au Narrateur. BitLocker n'est pas contourné.",
+          "tab": "tech",
+          "title": "Windows 11 : une faille non corrigée contourne l'écran de connexion via le Narrateur",
+          "url": "https://next.ink/268851/windows-11-une-faille-permet-de-contourner-lecran-de-connexion-grace-au-narrateur/"
+        },
+        {
+          "publishedAt": "2026-11-20T09:47:00+01:00",
+          "source": "Next",
+          "summary": "Ubisoft supprime 166 emplois au Canada et Firaxis a licencié environ un tiers de ses effectifs, tandis qu'une démarche de syndicalisation crée des tensions chez Rockstar.",
+          "tab": "tech",
+          "title": "Jeu vidéo : Ubisoft et Firaxis suppriment des centaines de postes",
+          "url": "https://next.ink/268665/lhemorragie-demplois-se-poursuit-dans-le-jeu-video/"
+        },
+        {
+          "publishedAt": "2026-11-19T15:32:36+01:00",
+          "source": "404 Media",
+          "summary": "Un document interne indique que la police de l'immigration américaine paie AT&T pour un accès assisté par des analystes à des données brutes d'appels. Des experts y voient un équivalent du programme Hemisphere, arrêté, et s'interrogent sur l'absence de mandat.",
+          "tab": "tech",
+          "title": "ICE paie AT&T pour fouiller une masse de relevés d'appels",
+          "url": "https://www.404media.co/ice-is-paying-at-t-to-dig-through-a-mountain-of-call-records-hemisphere-data-analytical-services/"
+        },
+        {
+          "publishedAt": "2026-11-20T07:37:00+01:00",
+          "source": "Next",
+          "summary": "La première préversion apporte une configuration par défaut durcie, des volumes de démarrage en ReFS, Trusted Launch pour les machines virtuelles Hyper-V et des fonctions d'inférence IA, au risque de casser certaines compatibilités.",
+          "tab": "tech",
+          "title": "Windows Server 2028 : une première préversion plus verrouillée",
+          "url": "https://next.ink/268563/windows-server-2028-va-durcir-sa-base-et-activer-trusted-launch-pour-les-vm/"
+        },
+        {
+          "publishedAt": "2026-11-20T10:52:25+01:00",
+          "source": "Next",
+          "summary": "À l'occasion de la Journée des droits de l'enfant, l'institution formule 25 recommandations sur les droits des mineurs en ligne, y compris face aux contenus pédocriminels générés par IA.",
+          "tab": "tech",
+          "title": "Le Défenseur des droits publie 25 recommandations sur les enfants et le numérique",
+          "url": "https://next.ink/268546/le-defenseur-des-droits-se-penche-sur-ceux-des-enfants-a-lere-du-numerique/"
+        },
+        {
+          "publishedAt": "2026-11-21T06:45:00+01:00",
+          "source": "Smithsonian Magazine",
+          "summary": "Le wombat commun produit des excréments cubiques, jusqu'à une centaine par jour. Une étude publiée dans la revue Soft Matter a montré que ce sont les parois de son intestin, plus ou moins rigides selon les zones, qui façonnent les faces et les arêtes ; ces cubes, qui ne roulent pas, serviraient à marquer le territoire.",
+          "tab": "savoir",
+          "title": "Les wombats font des crottes en forme de cube",
+          "url": "https://www.smithsonianmag.com/smart-news/scientists-have-solved-mystery-how-wombats-poop-cubes-180976898/"
+        }
+      ]
+    },
     {
       "date": "2026-11-20",
       "items": [
