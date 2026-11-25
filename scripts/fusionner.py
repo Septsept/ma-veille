@@ -15,6 +15,8 @@ TABS = {"esport", "football", "presidentielle", "lois", "international",
         "guerres", "economie", "ecologie", "tech", "savoir"}
 MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet",
         "août", "septembre", "octobre", "novembre", "décembre"]
+# Images d'aperçu qui ne sont que le logo du site (pas une vraie illustration)
+GENERIC_IMAGES = ("dhnet.be/resizer/v2/7VMUDRERRBCZFHIRPIT3OFNCE4",)
 DEFAULT_NOTE = ("Mediapart, L'Humanité, So Foot et Alternatives Économiques ne sont pas "
                 "lisibles par la veille automatique : leurs sujets peuvent apparaître via d'autres médias.")
 
@@ -69,7 +71,8 @@ def main():
             continue
         item = {k: clean(v) if isinstance(v, str) else v for k, v in it.items()
                 if k in {"tab", "title", "summary", "source", "url", "image", "publishedAt", "paywall", "tag"}}
-        if item.get("image") and not str(item["image"]).startswith("https://"):
+        image = str(item.get("image", ""))
+        if item.get("image") and (not image.startswith("https://") or any(g in image for g in GENERIC_IMAGES)):
             item.pop("image")
         key_title = item["title"].lower()
         if item["url"] in seen_urls or key_title in seen_titles:

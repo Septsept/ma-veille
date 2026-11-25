@@ -1,8 +1,399 @@
 {
-  "lastRun": "2026-11-24T06:53:26+01:00",
+  "lastRun": "2026-11-25T06:52:56+01:00",
   "nextRun": "demain vers 6 h 45",
   "note": "Mediapart, L'Humanité, So Foot et Alternatives Économiques ne sont pas lisibles par la veille automatique : leurs sujets peuvent apparaître via d'autres médias.",
   "days": [
+    {
+      "date": "2026-11-25",
+      "items": [
+        {
+          "publishedAt": "2026-11-24T12:00:00+01:00",
+          "source": "THESPIKE.GG",
+          "summary": "Trace Esports a officialisé l'arrivée du Taïwanais Nicc, tandis qu'Enterprise Esports s'est séparé de l'ensemble de ses joueurs. FULL SENSE prolonge de son côté Seph1roth et Killua.",
+          "tab": "esport",
+          "title": "VCT 2027 : Trace Esports recrute Nicc, Enterprise libère tout son effectif",
+          "url": "https://www.thespike.gg/valorant/news/vct-2027-roster-changes/9236",
+          "image": "https://cdn.thespike.gg/KC%25202.0%2Fvct-2027-roster-tracker-header-1080p_1794551762130.png"
+        },
+        {
+          "publishedAt": "2026-11-22T12:00:00+01:00",
+          "source": "THESPIKE.GG",
+          "summary": "Les deux structures ont fusionné et annoncé un effectif de cinq joueurs : NcSlasher, naTz, KellyS, xan et Iceyyy. Le mercato du VCT 2027 se poursuit dans la région Pacifique.",
+          "tab": "esport",
+          "title": "Valorant : BOOM Esports et Team Secret fusionnent",
+          "url": "https://www.thespike.gg/valorant/news/vct-2027-roster-changes/9236",
+          "image": "https://cdn.thespike.gg/KC%25202.0%2Fvct-2027-roster-tracker-header-1080p_1794551762130.png"
+        },
+        {
+          "publishedAt": "2026-11-24T22:55:00+01:00",
+          "source": "Maxifoot",
+          "summary": "Mené à la pause, le Real Madrid a fini par écraser le PSV Eindhoven. Manchester City a concédé le nul face à Naples (2-2), Galatasaray a battu Aston Villa 1-0 et Porto s'est imposé 1-0 à Feyenoord.",
+          "tab": "football",
+          "title": "Ligue des champions : le Real Madrid renverse le PSV 5-1, City et Naples se neutralisent 2-2",
+          "url": "https://news.maxifoot.fr/ligue-champions/les-resultats-de-la-soiree-foot-468281.htm",
+          "image": "https://news.maxifoot.fr/amp/468281.webp"
+        },
+        {
+          "publishedAt": "2026-11-24T23:00:00+01:00",
+          "source": "ESPN",
+          "summary": "Viktor Gyökeres avait ouvert le score dès la 10e minute, Maximilian Beier a égalisé à la 55e. Arsenal reste invaincu avec 10 points, Dortmund en compte 9.",
+          "tab": "football",
+          "title": "Ligue des champions : Arsenal accroché 1-1 par Dortmund",
+          "url": "https://www.espn.com/soccer/report/_/gameId/401915295",
+          "image": "https://s.secure.espncdn.com/stitcher/sports/soccer/uefa.champions/events/401915295.png?templateId=espn.com.share.1"
+        },
+        {
+          "publishedAt": "2026-11-24T23:00:00+01:00",
+          "source": "Foot Mercato",
+          "summary": "Le RC Lens s'est incliné en Allemagne lors de la 5e journée de la phase de ligue, quelques semaines après sa lourde défaite 9-1 contre Côme.",
+          "tab": "football",
+          "title": "Ligue des champions : Lens battu 3-1 à Leipzig",
+          "url": "https://www.footmercato.net/live/6652905905021682059-rb-leipzig-vs-lens",
+          "image": "https://assets-fr.imgfoot.com/match-cover-fr-806488548379509524-7296614330851655424.jpg"
+        },
+        {
+          "publishedAt": "2026-11-24T19:07:00+01:00",
+          "source": "AFP via DH",
+          "summary": "Le Tribunal arbitral du sport a annulé à l'unanimité la décision de la CAF, qui avait donné le Maroc vainqueur 3-0 sur tapis vert après que des joueurs sénégalais eurent quitté la pelouse lors de la finale. Le Sénégal avait gagné 1-0 après prolongation à Rabat le 18 janvier ; la CAF a accepté la décision.",
+          "tab": "football",
+          "title": "CAN 2025 : le TAS rend le titre au Sénégal",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/24/can-2025-devant-le-tas-le-senegal-recupere-son-titre-aux-depens-du-maroc-7H2JXTXJAREJDKZ24CUJV4TQKY/"
+        },
+        {
+          "publishedAt": "2026-11-25T06:00:00+01:00",
+          "source": "Sport-Flash",
+          "summary": "Neuf matches sont au programme, dont Sporting-Manchester United, Inter-Stuttgart et Club Bruges-Liverpool à 21 h. Le FC Barcelone joue à 18 h 45 chez Sabah.",
+          "tab": "football",
+          "title": "Ce mercredi soir : PSG-Roma et Lille-Bayern Munich en Ligue des champions",
+          "url": "https://www.sport-flash.com/sports/football/fr/calendar/2026-11-25"
+        },
+        {
+          "publishedAt": "2026-11-24T12:00:00+01:00",
+          "source": "Public Sénat",
+          "summary": "Dans le baromètre Odoxa-Mascaret, la courbe de popularité du maire de Cannes passe pour la première fois devant celle de l'ancien Premier ministre. Dans les duels de second tour testés, seuls Lisnard et Philippe seraient préférés à Marine Le Pen, sans majorité nette.",
+          "tab": "presidentielle",
+          "title": "Sondage Odoxa : David Lisnard dépasse Édouard Philippe en popularité",
+          "url": "https://www.publicsenat.fr/actualites/politique/election-presidentielle-2027-david-lisnard-confirme-sa-dynamique-et-devance-edouard-philippe",
+          "image": "https://www.publicsenat.fr/app/uploads/2026/11/SIPA_01273053_000019-1200x630.jpg"
+        },
+        {
+          "publishedAt": "2026-11-24T19:07:00+01:00",
+          "source": "AFP via DH",
+          "summary": "Près de 12 500 élus sont attendus à Paris jusqu'à jeudi. Philippe, Retailleau, Glucksmann, Attal ou Tondelier sont annoncés, chacun devant réunir 500 parrainages ; le résultat de l'élection à la présidence de l'AMF, que brigue aussi Lisnard, est attendu mercredi à 14 h.",
+          "tab": "presidentielle",
+          "title": "Congrès des maires : les prétendants défilent, Le Pen et Mélenchon absents",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/24/le-congres-des-maires-souvre-sur-fond-de-bataille-pour-lelysee-ZEQM4MGQ6JDVHJI7GRNR2T3474/"
+        },
+        {
+          "publishedAt": "2026-11-24T12:16:00+01:00",
+          "source": "Reporterre",
+          "summary": "Le sénateur et quatre autres membres quittent Les Écologistes pour fonder « Écologistes et Démocrates », en désaccord avec le rapprochement envisagé avec Jean-Luc Mélenchon.",
+          "tab": "presidentielle",
+          "title": "Yannick Jadot et des écologistes pro-Glucksmann lancent leur parti",
+          "url": "https://reporterre.net/Yannick-Jadot-et-des-ecologistes-pro-Glucksmann-fondent-leur-parti-politique"
+        },
+        {
+          "publishedAt": "2026-11-24T12:00:00+01:00",
+          "source": "Public Sénat",
+          "summary": "La candidate des Écologistes se dit prête à discuter d'une alliance avec LFI mais maintient sa candidature tant que les adhérents n'ont pas tranché, lors d'un vote prévu le 13 décembre.",
+          "tab": "presidentielle",
+          "tag": "Suivi",
+          "title": "Marine Tondelier reste candidate jusqu'au vote interne du 13 décembre",
+          "url": "https://www.publicsenat.fr/actualites/politique/main-tendue-des-ecologistes-a-melenchon-je-suis-candidate-aujourdhui-je-serai-candidate-demain-jusqua-ce-quon-en-decide-autrement-au-sein-du-mouvement",
+          "image": "https://img.youtube.com/vi/ezcdssMm_Vk/maxresdefault.jpg"
+        },
+        {
+          "publishedAt": "2026-11-24T12:00:00+01:00",
+          "source": "Public Sénat",
+          "summary": "En marge du Congrès des maires, il accepte de rencontrer trois autres candidats à l'invitation du président du Sénat, mais rejette le projet de primaire de David Lisnard allant jusqu'au parti d'Éric Zemmour.",
+          "tab": "presidentielle",
+          "title": "Édouard Philippe refuse une primaire de la droite élargie à Reconquête",
+          "url": "https://www.publicsenat.fr/actualites/politique/on-peut-aimer-les-tronconneuses-et-ne-pas-savoir-trancher-le-tacle-dedouard-philippe-a-david-lisnard-accuse-de-pas-etre-assez-etanche-a-l",
+          "image": "https://img.youtube.com/vi/wk0YJ9IGWkU/maxresdefault.jpg"
+        },
+        {
+          "publishedAt": "2026-11-24T19:00:00+01:00",
+          "source": "LCP",
+          "summary": "Le texte de Vincent Jeanbrun a été voté en première lecture par 362 voix contre 118. Un amendement du RN soutenu par la droite supprime l'interdiction de louer les passoires thermiques ; le gouvernement compte revenir dessus en commission mixte paritaire et vise une promulgation avant fin 2026.",
+          "tab": "lois",
+          "title": "Logement : l'Assemblée adopte le projet de loi, passoires thermiques réautorisées à ce stade",
+          "url": "https://lcp.fr/actualites/logement-les-deputes-adoptent-une-version-du-projet-de-loi-reautorisant-a-ce-stade-la",
+          "image": "https://lcp.fr/sites/lcp.fr/files/styles/max_650x650/public/2026-11/52909691774_d2ffb58754_k.jpg?itok=RLPEUJjc"
+        },
+        {
+          "publishedAt": "2026-11-24T20:00:00+01:00",
+          "source": "Public Sénat",
+          "summary": "L'amendement de la commission des finances supprimant l'abattement a été rejeté ; les sénateurs l'ont finalement plafonné à 1 000 euros. Les amendements de la gauche pour supprimer la flat tax ont tous été repoussés.",
+          "tab": "lois",
+          "title": "Budget 2027 au Sénat : l'abattement de 10 % des retraités maintenu mais plafonné",
+          "url": "https://www.publicsenat.fr/actualites/politique/budget-2027-coup-de-theatre-le-senat-renonce-a-supprimer-labattement-de-10-des-retraites",
+          "image": "https://img.youtube.com/vi/wS7f8P1lZ94/maxresdefault.jpg"
+        },
+        {
+          "publishedAt": "2026-11-24T12:00:00+01:00",
+          "source": "Public Sénat",
+          "summary": "La commission des finances du Sénat élargit ce PTZ, initialement réservé au premier enfant, à toutes les naissances. Le projet de loi de finances, rejeté par l'Assemblée, est examiné au Sénat.",
+          "tab": "lois",
+          "title": "Budget 2027 : le prêt à taux zéro natalité étendu à chaque naissance",
+          "url": "https://www.publicsenat.fr/actualites/politique/budget-2027-le-senat-elargit-le-pret-a-taux-zero-natalite-a-chaque-nouvelle-naissance",
+          "image": "https://img.youtube.com/vi/pAvTjVJs_jU/maxresdefault.jpg"
+        },
+        {
+          "publishedAt": "2026-11-24T12:00:00+01:00",
+          "source": "Public Sénat",
+          "summary": "Devant le Sénat, le ministre annonce environ 420 millions d'euros de crédits supplémentaires pour 2027, mais estime qu'une loi de finances rectificative sera nécessaire pour financer pleinement le texte.",
+          "tab": "lois",
+          "title": "Justice : Darmanin juge un budget rectificatif inévitable pour la loi intégrale",
+          "url": "https://www.publicsenat.fr/actualites/societe/justice-pour-la-loi-integrale-il-faudra-des-moyens-tres-importants-et-un-budget-rectificatif-ca-me-parait-evident-affirme-gerald-darmanin",
+          "image": "https://img.youtube.com/vi/_ndwSa7u1cM/maxresdefault.jpg"
+        },
+        {
+          "publishedAt": "2026-11-25T00:30:00+01:00",
+          "source": "Public Sénat",
+          "summary": "Un amendement adopté contre l'avis du gouvernement et de la commission des finances exclut les chambres d'hôtes du régime fiscal durci en 2024.",
+          "tab": "lois",
+          "title": "Budget 2027 : le Sénat sort les chambres d'hôtes du régime des meublés touristiques",
+          "url": "https://www.publicsenat.fr/actualites/politique/budget-2027-le-senat-exclut-les-chambres-dhotes-du-regime-fiscal-des-meubles-touristiques",
+          "image": "https://img.youtube.com/vi/4dAtzna-m9s/maxresdefault.jpg"
+        },
+        {
+          "publishedAt": "2026-11-24T18:57:00+01:00",
+          "source": "AFP via DH",
+          "summary": "Pour sa première visite officielle depuis son arrivée au pouvoir en mai, le Premier ministre hongrois a rencontré Volodymyr Zelensky à Oujgorod, en Transcarpatie. Il a condamné l'invasion russe et demandé des droits linguistiques pour la minorité hongroise.",
+          "tab": "international",
+          "title": "Péter Magyar en Ukraine : « un nouveau chapitre » avec Kiev",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/24/en-ukraine-le-premier-ministre-hongrois-annonce-le-debut-dun-nouveau-chapitre-5MC53N3C7BH3PAQCULR3GIH6Y4/"
+        },
+        {
+          "publishedAt": "2026-11-24T09:31:00+01:00",
+          "source": "Meduza",
+          "summary": "Plusieurs appareils russes sont entrés dans la zone d'identification de défense aérienne près de l'île d'Ulleungdo sans violer l'espace aérien. Séoul a fait décoller des chasseurs, émis une alerte d'évacuation et va convoquer un représentant russe.",
+          "tab": "international",
+          "title": "Corée du Sud : des avions militaires russes déclenchent une alerte inédite",
+          "url": "https://meduza.io/en/news/2026/11/24/south-korea-scrambles-fighter-jets-over-russian-military-aircraft-issues-evacuation-alert-on-island",
+          "image": "https://meduza.io/imgly/share/1795509089/en/news/2026/11/24/south-korea-scrambles-fighter-jets-over-russian-military-aircraft-issues-evacuation-alert-on-island"
+        },
+        {
+          "publishedAt": "2026-11-24T18:57:00+01:00",
+          "source": "AFP via DH",
+          "summary": "L'ex-Première ministre, 79 ans, exilée en Inde depuis août 2024, a été condamnée à mort par contumace en novembre 2025 pour la répression des manifestations. Son retour annoncé embarrasse le gouvernement du BNP élu en février.",
+          "tab": "international",
+          "title": "Bangladesh : Sheikh Hasina annonce son retour le 16 décembre malgré sa condamnation à mort",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/24/bangladesh-sheikh-hasina-de-la-chute-au-retour-annonce-au-pays-en-cinq-dates-I5UPVXBKOFHTVGGOTWJMSLPI74/"
+        },
+        {
+          "publishedAt": "2026-11-24T12:00:00+01:00",
+          "source": "The Kyiv Independent",
+          "summary": "Le Danemark, l'Estonie, la Finlande, la Lettonie, la Lituanie, la Pologne et la Suède ont signé une lettre appuyant les restrictions de visas pour les touristes et sportifs russes.",
+          "tab": "international",
+          "title": "Sept pays de l'UE soutiennent une limitation des visas russes",
+          "url": "https://kyivindependent.com/exclusive-7-countries-back-eu-push-to-limit-russian-visas-for-tourists-sports/",
+          "image": "https://assets.kyivindependent.com/content/images/2025/03/GettyImages-2202968472-1.jpg"
+        },
+        {
+          "publishedAt": "2026-11-23T23:09:00+01:00",
+          "source": "Meduza",
+          "summary": "La diplomatie russe a convoqué le chargé d'affaires estonien. Tallinn s'apprête à fermer ses points de passage terrestres avec la Russie et dément laisser passer des drones ukrainiens.",
+          "tab": "international",
+          "title": "Estonie : Moscou proteste contre la fermeture de la frontière terrestre le 1er décembre",
+          "url": "https://meduza.io/en/news/2026/11/24/russia-protests-estonia-s-planned-land-border-closure-and-again-accuses-it-of-letting-ukrainian-drones-use-its-airspace",
+          "image": "https://meduza.io/imgly/share/1795471764/en/news/2026/11/24/russia-protests-estonia-s-planned-land-border-closure-and-again-accuses-it-of-letting-ukrainian-drones-use-its-airspace"
+        },
+        {
+          "publishedAt": "2026-11-24T12:00:00+01:00",
+          "source": "The Kyiv Independent",
+          "summary": "Un bâtiment de cinq étages a été en partie détruit à Zaporijjia, faisant deux morts et plus de 40 blessés, dont quatre enfants, selon les autorités ukrainiennes.",
+          "tab": "guerres",
+          "title": "Ukraine : 9 morts et 77 blessés en 24 heures, un immeuble touché à Zaporijjia",
+          "url": "https://kyivindependent.com/russian-attacks-kill-9-injure-77-across-ukraine-over-past-day-zaporizhzhia-residential-building-massively-hit/",
+          "image": "https://assets.kyivindependent.com/content/images/2026/11/photo_2026-11-24_12-32-01_20261124-113223_20261124-113314.jpg"
+        },
+        {
+          "publishedAt": "2026-11-24T09:22:00+01:00",
+          "source": "Meduza (média indépendant russe en exil)",
+          "summary": "Selon le maire Sergueï Sobianine, la plupart ont été abattus loin de la capitale. Vnoukovo et Cheremetievo n'ont fonctionné qu'avec autorisation spéciale pendant plusieurs heures.",
+          "tab": "guerres",
+          "title": "Moscou : 355 drones ukrainiens dans la nuit, deux aéroports perturbés",
+          "url": "https://meduza.io/en/news/2026/11/24/355-ukrainian-drones-flew-toward-moscow-overnight-prompting-flight-restrictions-at-two-airports",
+          "image": "https://meduza.io/imgly/share/1795508550/en/news/2026/11/24/355-ukrainian-drones-flew-toward-moscow-overnight-prompting-flight-restrictions-at-two-airports"
+        },
+        {
+          "publishedAt": "2026-11-24T19:07:00+01:00",
+          "source": "AFP via DH",
+          "summary": "L'attaque, attribuée aux Houthis qui ne l'ont pas revendiquée, a touché des ouvriers en pleins travaux de réparation. Au Yémen, l'armée affirme que les Houthis sont à 60 km d'Aden.",
+          "tab": "guerres",
+          "title": "Riyad : 11 blessés dans une nouvelle frappe sur la plus haute tour de la ville",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/24/arabie-saoudite-11-blesses-dans-une-nouvelle-frappe-sur-la-plus-haute-tour-de-riyad-6VAEVK6LSFE2LF2HANK2IN7IGQ/"
+        },
+        {
+          "publishedAt": "2026-11-24T18:57:00+01:00",
+          "source": "AFP via DH",
+          "summary": "Naeem Abou Nahal, 50 ans, a été tué ; la Défense civile fait état de sept morts dans plusieurs frappes ce jour-là. Selon un décompte AFP, plus de 1 600 Palestiniens ont été tués depuis la trêve d'octobre 2025.",
+          "tab": "guerres",
+          "title": "Gaza : le chef de la sécurité intérieure du Hamas tué par une frappe israélienne",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/24/gaza-le-responsable-de-la-securite-interieure-du-hamas-tue-par-une-frappe-israelienne-JIM2Q5SX65CY7MN76GHGPAFY4Y/"
+        },
+        {
+          "publishedAt": "2026-11-24T19:07:00+01:00",
+          "source": "AFP via DH",
+          "summary": "L'explosion, lundi soir sur la place principale, a fait une vingtaine de blessés selon les médias locaux, à la veille des dix ans de l'accord de paix avec les FARC. Le président accuse des « narcoterroristes », sans revendication.",
+          "tab": "guerres",
+          "title": "Colombie : une voiture piégée explose à Villavicencio",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/24/colombie-attentat-a-la-voiture-piegee-a-la-veille-des-dix-ans-de-laccord-de-paix-4MJ4V2KIGRAN5NZKGJFZRBC5BM/"
+        },
+        {
+          "publishedAt": "2026-11-24T18:37:00+01:00",
+          "source": "AFP via DH",
+          "summary": "Troisième hausse annuelle consécutive selon l'Observatoire des mines ; 84 % des victimes sont des civils. Cinq pays (Pologne, Finlande et pays baltes) ont quitté le traité face à la menace russe.",
+          "tab": "guerres",
+          "tag": "Contexte",
+          "title": "Mines antipersonnel : 6 929 victimes en 2025, le traité d'Ottawa fragilisé",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/24/menaces-sur-le-traite-dinterdiction-des-mines-antipersonnel-2TJUSHE6VRFHVJHK7E2QSOBHQM/"
+        },
+        {
+          "publishedAt": "2026-11-24T18:40:00+01:00",
+          "source": "Boursorama",
+          "summary": "Le groupe pharmaceutique s'offre ce spécialiste des maladies respiratoires. Le CAC 40 a fini quasi stable (-0,05 %) à 8 040,49 points, effaçant l'euphorie de la veille.",
+          "tab": "economie",
+          "title": "Sanofi rachète l'américain Insmed pour 37,6 milliards d'euros et bondit de 9,27 %",
+          "url": "https://www.boursorama.com/bourse/actualites/la-bourse-de-paris-termine-proche-de-l-equilibre-sanofi-flambe-de-pres-de-10-17026de273bdee7dcc84006ce12fdbcd"
+        },
+        {
+          "publishedAt": "2026-11-24T22:48:00+01:00",
+          "source": "Boursorama",
+          "summary": "Après son envolée de 6,51 % lundi, le Nasdaq recule ; Nvidia perd 5,86 % et AMD 8,86 %. L'action Anthropic cède 6,54 % à 81,91 dollars, sous les 83 dollars de son introduction. Le Dow Jones gagne 0,85 %.",
+          "tab": "economie",
+          "title": "Wall Street : le Nasdaq rechute de 1,48 %, Anthropic passe sous son prix d'introduction",
+          "url": "https://www.boursorama.com/bourse/actualites/wall-street-cloture-sans-direction-claire-nouvelles-ventes-sur-l-ia-ad535d85a8c42bda816789a6ffe66574"
+        },
+        {
+          "publishedAt": "2026-11-24T18:40:00+01:00",
+          "source": "Boursorama",
+          "summary": "L'ex-Korian a terminé à 4,50 euros après l'annonce d'un projet d'offre de HLD Europe, soutenu par Crédit Agricole Assurances. STMicroelectronics a chuté de 10,22 %.",
+          "tab": "economie",
+          "title": "Clariane s'envole de 35 % sur un projet d'OPA",
+          "url": "https://www.boursorama.com/bourse/actualites/la-bourse-de-paris-termine-proche-de-l-equilibre-sanofi-flambe-de-pres-de-10-17026de273bdee7dcc84006ce12fdbcd"
+        },
+        {
+          "publishedAt": "2026-11-24T19:07:00+01:00",
+          "source": "AFP via DH",
+          "summary": "Les places asiatiques ont rebondi mardi, Tokyo prenant 4 %. Washington a placé sur liste noire sept sociétés soupçonnées de détourner des puces Nvidia vers la Chine.",
+          "tab": "economie",
+          "title": "Asie : Taipei gagne 9 %, Séoul 6 % après le retour de Jensen Huang",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/24/washington-cible-la-contrebande-de-puces-vers-la-chine-les-bourses-rassurees-sur-nvidia-QKWWYMMT4JB2HH5B2JIJLMSCIY/"
+        },
+        {
+          "publishedAt": "2026-11-24T18:44:00+01:00",
+          "source": "Belga via DH",
+          "summary": "La direction du site historique de Peugeot invoque un contexte économique difficile ; la mesure s'appliquera à partir de janvier.",
+          "tab": "economie",
+          "title": "Stellantis supprime l'équipe de nuit à Sochaux, 500 personnes concernées",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/24/stellantis-stoppe-lequipe-de-nuit-a-sochaux-500-emplois-concernes-YBBH5JAMPRGYND4S5WXDYH2WBY/"
+        },
+        {
+          "publishedAt": "2026-11-25T06:30:00+01:00",
+          "source": "Reporterre",
+          "summary": "Digital Realty propose cette somme à la commune des Bouches-du-Rhône quelques mois après avoir obtenu un permis de construire pour un centre de données géant.",
+          "tab": "ecologie",
+          "title": "Data centers : 170 000 euros de mécénat offerts à Bouc-Bel-Air",
+          "url": "https://reporterre.net/Ils-achetent-le-silence-pour-faire-accepter-ses-data-centers-un-constructeur-sort-le"
+        },
+        {
+          "publishedAt": "2026-11-24T18:57:00+01:00",
+          "source": "AFP via DH",
+          "summary": "Environ 350 personnes selon l'AFP ont manifesté à Strasbourg contre ce texte qui accorderait des autorisations illimitées à certains pesticides. 52 sociétés médicales de 16 pays demandent sa suspension.",
+          "tab": "ecologie",
+          "title": "Pesticides : le vote européen sur l'« Omnibus X » repoussé à début 2027",
+          "url": "https://www.dhnet.be/dernieres-depeches/2026/11/24/pas-deternite-pour-les-pesticides-nouvelle-mobilisation-devant-le-parlement-europeen-WR2DGRT4FNGOFAMQQ34MSN6CYA/"
+        },
+        {
+          "publishedAt": "2026-11-24T15:13:00+01:00",
+          "source": "Reporterre",
+          "summary": "Le projet de directive de la Commission déréglementerait la modification génétique de virus, champignons et bactéries ; un vote est prévu ce 25 novembre au Parlement européen.",
+          "tab": "ecologie",
+          "title": "Micro-organismes génétiquement modifiés : des scientifiques veulent suspendre le vote européen",
+          "url": "https://reporterre.net/Invisibles-a-l-oeil-nu-et-genetiquement-modifies-l-Europe-pourrait-ouvrir-la-porte-aux"
+        },
+        {
+          "publishedAt": "2026-11-24T16:00:00+01:00",
+          "source": "Reporterre",
+          "summary": "Des habitants veulent tourner la page de ce site accusé depuis des décennies de graves dégâts sanitaires et environnementaux.",
+          "tab": "ecologie",
+          "title": "Italie : la justice ordonne l'arrêt de l'aciérie ex-Ilva de Tarente",
+          "url": "https://reporterre.net/Un-monstre-qui-nous-tue-depuis-soixante-ans-en-Italie-ils-veulent-en-finir-avec-leur"
+        },
+        {
+          "publishedAt": "2026-11-24T16:39:00+01:00",
+          "source": "Reporterre",
+          "summary": "Le tribunal administratif de Melun a suspendu le permis de construire d'une résidence de dix logements qui menaçait cet arbre de 20 mètres.",
+          "tab": "ecologie",
+          "title": "Saint-Maur-des-Fossés : un chêne de 400 ans sauvé pour la troisième fois",
+          "url": "https://reporterre.net/Un-chene-de-400-ans-echappe-pour-la-troisieme-fois-a-un-projet-immobilier"
+        },
+        {
+          "publishedAt": "2026-11-24T16:39:00+01:00",
+          "source": "Next",
+          "summary": "La fondation cesse son service pour les utilisateurs français à la suite de sa condamnation dans l'affaire l'opposant à BeIN pour défaut de blocage de sites pirates.",
+          "tab": "tech",
+          "title": "Quad9 coupe son résolveur DNS en France",
+          "url": "https://next.ink/brief-article/quad9-confirme-la-desactivation-de-son-service-en-france-aujourdhui/",
+          "image": "https://next.ink/wp-content/uploads/2024/11/Piratage-foot-1024x496.webp"
+        },
+        {
+          "publishedAt": "2026-11-24T17:03:00+01:00",
+          "source": "Next",
+          "summary": "Les procureurs des deux États reprochent à l'IA de continuer à générer des images pédocriminelles et de fournir des moyens de contourner la modération.",
+          "tab": "tech",
+          "title": "Grok : la Virginie et l'Oregon portent plainte contre SpaceXSI",
+          "url": "https://next.ink/269655/la-virginie-et-loregon-attaquent-spacexsi-pour-la-generation-de-contenus-pedocriminels/",
+          "image": "https://next.ink/wp-content/uploads/2024/08/Musk-Grok-1024x496.webp"
+        },
+        {
+          "publishedAt": "2026-11-24T08:20:00+01:00",
+          "source": "Next",
+          "summary": "Anthropic verse 3,1 milliards de dollars par mois à SpaceXSI pour ses puces, contre 920 millions pour Google. La division IA a généré 7,56 milliards de dollars au troisième trimestre.",
+          "tab": "tech",
+          "title": "SpaceX gagne plus en louant ses GPU à Anthropic qu'avec Grok",
+          "url": "https://next.ink/269521/spacex-gagne-plus-en-louant-ses-gpu-a-anthropic-quavec-grok-incapable-de-rivaliser/",
+          "image": "https://next.ink/wp-content/uploads/2023/11/Ia-conso-1024x496.jpg"
+        },
+        {
+          "publishedAt": "2026-11-24T11:55:00+01:00",
+          "source": "Next",
+          "summary": "Le rapport ajoute un quatrième facteur, un pic de trafic nord-américain, et exclut tout usage de l'IA dans les modifications en cause.",
+          "tab": "tech",
+          "title": "Panne Microsoft des 12 et 13 novembre : le rapport final écarte la cyberattaque",
+          "url": "https://next.ink/269535/panne-microsoft-plus-precis-le-rapport-final-nie-toute-cyberattaque-ou-usage-de-lia/",
+          "image": "https://next.ink/wp-content/uploads/2024/09/paul-bulai-XOQJa4OC8P0-unsplash-1024x683.jpg"
+        },
+        {
+          "publishedAt": "2026-11-24T10:40:00+01:00",
+          "source": "Next",
+          "summary": "Une soixantaine d'associations et une centaine d'universitaires demandent un retrait préventif, faute de tests préalables sur ces produits destinés aux enfants.",
+          "tab": "tech",
+          "title": "Jouets à chatbot IA : appel au retrait sur Amazon et eBay",
+          "url": "https://next.ink/269533/associations-et-experts-exhortent-amazon-et-ebay-a-retirer-les-jouets-dotes-de-chatbots-ia/",
+          "image": "https://next.ink/wp-content/uploads/2026/10/Child-s-play2-1024x495.webp"
+        },
+        {
+          "publishedAt": "2026-11-24T07:44:00+01:00",
+          "source": "Next",
+          "summary": "Malgré le DMA, les navigateurs concurrents de Safari doivent toujours utiliser le moteur d'Apple en Europe ; une lettre ouverte demande à la Commission d'ouvrir une enquête formelle.",
+          "tab": "tech",
+          "title": "iOS : Mozilla, Brave et Vivaldi réclament une enquête européenne sur WebKit",
+          "url": "https://next.ink/269516/malgre-le-dma-webkit-reste-le-seul-moteur-des-rivaux-de-safari-en-europe/",
+          "image": "https://next.ink/wp-content/uploads/2026/08/Navigateur-1024x495.webp"
+        },
+        {
+          "publishedAt": "2026-11-25T06:00:00+01:00",
+          "source": "Smithsonian Magazine",
+          "summary": "Des archéologues ont retrouvé dans des tombes égyptiennes des pots de miel vieux de plusieurs milliers d'années, toujours comestibles. Très pauvre en eau et acide, le miel produit aussi du peroxyde d'hydrogène, ce qui empêche les microbes de s'y développer.",
+          "tab": "savoir",
+          "title": "Le miel peut se conserver des millénaires",
+          "url": "https://www.smithsonianmag.com/science-nature/the-science-behind-honeys-eternal-shelf-life-1218690/"
+        }
+      ]
+    },
     {
       "date": "2026-11-24",
       "items": [
@@ -1375,7 +1766,6 @@
           "summary": "Victoire 2-1 à Bordeaux le 15 novembre, sans briller. La France termine première du groupe A1 (13 points) devant la Belgique, qualifiée elle aussi. Les quarts de finale se joueront en mars 2027.",
           "source": "AFP via DH",
           "url": "https://www.dhnet.be/dernieres-depeches/2026/11/15/ligue-des-nations-des-bleus-poussifs-mais-au-rendez-vous-des-quarts-TE3D75ARAREWBEVF64P6V7Y3TE/",
-          "image": "https://www.dhnet.be/resizer/v2/7VMUDRERRBCZFHIRPIT3OFNCE4.png?auth=e26ec744f03e936804ed79e7aebfa711f3f6ad9ee4d8768a59ebacc7229c4737&width=1200&height=630&quality=85&smart=true",
           "publishedAt": "2026-11-15T23:00:00+01:00"
         },
         {
