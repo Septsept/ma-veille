@@ -1,8 +1,352 @@
 {
-  "lastRun": "2026-11-25T06:52:56+01:00",
+  "lastRun": "2026-11-26T06:53:57+01:00",
   "nextRun": "demain vers 6 h 45",
   "note": "Mediapart, L'Humanité, So Foot et Alternatives Économiques ne sont pas lisibles par la veille automatique : leurs sujets peuvent apparaître via d'autres médias.",
   "days": [
+    {
+      "date": "2026-11-26",
+      "items": [
+        {
+          "image": "https://www.team-aaa.com/media/cache/article_big/upload/media/post_image/0001/15/d16d0bb8a2bf314da44ff34033a83b45f26876e0.png",
+          "publishedAt": "2026-11-25T11:29:00+01:00",
+          "source": "Team-AAA",
+          "summary": "Le toplaner sud-coréen, parti chez Hanwha Life Esports fin 2024 et vainqueur du MSI 2026 avec ce club, revient à T1 jusqu'en 2029. Il complète un effectif avec Oner, Faker, Peyz et Keria, Doran partant chez Dplus KIA.",
+          "tab": "esport",
+          "title": "LCK 2027 : T1 officialise le retour de Zeus pour trois saisons",
+          "url": "https://www.team-aaa.com/fr/actualite/mercato-lol-lck-t1-boucle-son-roster-2027-en-officialisant-le-retour-de-zeus-avec-un-contrat-de-trois-ans_137741"
+        },
+        {
+          "image": "https://www.team-aaa.com/media/cache/article_big/upload/media/post_image/0001/15/9a35bb23d0e8270c0f206660ebc8b6678a2a93a2.jpeg",
+          "publishedAt": "2026-11-25T20:00:00+01:00",
+          "source": "Team-AAA",
+          "summary": "Le jungler Canyon a été officialisé chez Hanwha Life Esports le 24 novembre, tandis que Gen.G a recruté Cloud, Sharvel et Siwoo. Le 25 novembre, CoreJJ a quitté Team Liquid et Shifters s'est séparé de Rooster et Sheo en LEC.",
+          "tab": "esport",
+          "title": "Mercato LoL : Canyon rejoint Hanwha Life, CoreJJ quitte Team Liquid",
+          "url": "https://www.team-aaa.com/fr/actualite/le-mercato-league-of-legends-de-lintersaison-2026-2027-tous-les-transferts-toutes-les-rumeurs_137145"
+        },
+        {
+          "image": "https://cdn.thespike.gg/.LucaUrazov%2FM8%202027%20VALORANT%20Roster_1795645950598.jpg",
+          "publishedAt": "2026-11-25T23:00:00+01:00",
+          "source": "THESPIKE.GG",
+          "summary": "La structure française aligne Boaster, Alfajer, Ruxic, kozzy et MAGNUM, avec l'ancien entraîneur de Sentinels kaplan. Gentle Mates s'était séparé de tout son effectif le 27 octobre.",
+          "tab": "esport",
+          "title": "VCT 2027 : Gentle Mates recrute Boaster et Alfajer, anciens piliers de Fnatic",
+          "url": "https://www.thespike.gg/valorant/news/gentle-mates-announce-2027-valorant-roster/9305"
+        },
+        {
+          "image": "https://cdn.thespike.gg/KC%25202.0%2Fmarteen-for-gentle-mates-at-vct-emea-2026-stage-1-1080p_1795628034279.jpg",
+          "publishedAt": "2026-11-25T18:00:00+01:00",
+          "source": "THESPIKE.GG",
+          "summary": "Âgé de 22 ans, Martin Pátek arrive de Gentle Mates et rejoint kaajak et Cloud, restés au club. Fnatic a perdu Boaster, Alfajer et crashies pendant l'intersaison.",
+          "tab": "esport",
+          "title": "VCT 2027 : Fnatic recrute le duelliste tchèque marteen",
+          "url": "https://www.thespike.gg/valorant/news/fnatic-signs-marteen-for-vct-2027-season/9300"
+        },
+        {
+          "image": "https://cdn.thespike.gg/.LucaUrazov%2Fbonk%20banned_1795522706602.png",
+          "publishedAt": "2026-11-24T12:00:00+01:00",
+          "source": "THESPIKE.GG",
+          "summary": "Riot Games a banni les cinq joueurs et l'entraîneur de BONK après la découverte d'un logiciel donnant la position des adversaires sur un ordinateur lié au coach, lors des qualifications VCT EMEA Kickoff des 6 et 7 novembre. Aurora Gaming récupère sa place en phase finale, lancée le 25 novembre.",
+          "tab": "esport",
+          "title": "Valorant : quatre ans de suspension pour l'équipe BONK, prise à tricher",
+          "url": "https://www.thespike.gg/valorant/news/bonk-players-and-coach-get-4-year-ban-vct-emea-qualifiers/9294"
+        },
+        {
+          "image": "https://news.footeo.com/app/uploads/2026/11/ICONSPORT_380475_0006-1536x1024.jpg",
+          "publishedAt": "2026-11-25T22:58:00+01:00",
+          "source": "Footeo",
+          "summary": "Mené dès la 5e minute (Hermoso), Paris a renversé la situation par Zabarnyi puis Dembélé sur penalty, avant l'égalisation de Malen, lui aussi sur penalty, à la 78e. Le PSG perd sa série de quatre victoires et reste deuxième avec 13 points, derrière le Real Madrid (15).",
+          "tab": "football",
+          "title": "Ligue des champions : le PSG concède le nul 2-2 face à la Roma",
+          "url": "https://news.footeo.com/2026/11/25/psg-roma-2-2-paris-concede-son-premier-nul-de-la-phase-de-ligue-des-champions-18609"
+        },
+        {
+          "image": "https://news.footeo.com/app/uploads/2026/11/ICONSPORT_378344_0007-1536x1024.jpg",
+          "publishedAt": "2026-11-25T23:05:00+01:00",
+          "source": "Footeo",
+          "summary": "Menés après un but d'Upamecano, les Lillois ont répondu par Ayase Ueda puis un contre son camp de Pavlovic. Mercredi, Liverpool a gagné 3-0 à Bruges, le Barça 4-1 à Sabah et l'Inter 2-0 contre Stuttgart, tandis que Sporting et Manchester United se sont quittés sur un 2-2.",
+          "tab": "football",
+          "title": "Ligue des champions : Lille renverse le Bayern Munich 2-1",
+          "url": "https://news.footeo.com/2026/11/25/ligue-des-champions-tous-les-resultats-de-mercredi-lille-fait-tomber-le-bayern-le-psg-accroche-par-la-roma-18612"
+        },
+        {
+          "image": "https://news.maxifoot.fr/amp/468245.webp",
+          "publishedAt": "2026-11-24T11:30:00+01:00",
+          "source": "Maxifoot",
+          "summary": "À 35 ans, l'ailier aux 119 sélections et 40 buts ne reviendra pas en équipe nationale, malgré la défaite 0-3 face au Togo lors de la dernière trêve. Il dit vouloir laisser la place à la nouvelle génération.",
+          "tab": "football",
+          "title": "Algérie : Riyad Mahrez confirme sa retraite internationale",
+          "url": "https://news.maxifoot.fr/algerie/c-est-fini-mahrez-confirme-foot-468245.htm"
+        },
+        {
+          "image": "https://lcp.fr/sites/lcp.fr/files/styles/max_650x650/public/2024-09/David%20Lisnard_1.jpg?itok=1YLBMpM1",
+          "publishedAt": "2026-11-25T14:01:00+01:00",
+          "source": "LCP",
+          "summary": "Le maire de Cannes, candidat déclaré à la présidentielle, obtient un troisième mandat face à Philippe Laurent (UDI), avec un score supérieur aux 62 % de 2021. Environ 14 000 maires ont voté, soit près de 40 % des élus concernés selon l'AFP.",
+          "tab": "presidentielle",
+          "title": "David Lisnard réélu à la tête de l'AMF avec 72 % des voix",
+          "url": "https://lcp.fr/actualites/presidentielle-2027-david-lisnard-tres-largement-reelu-a-la-tete-de-l-association-des"
+        },
+        {
+          "image": "https://lcp.fr/sites/lcp.fr/files/styles/max_650x650/public/2026-11/Philippe%20LCI.png?itok=tVq-Unif",
+          "publishedAt": "2026-11-25T09:05:00+01:00",
+          "source": "LCP",
+          "summary": "Sur LCI, le maire du Havre a mis en cause la proximité de son rival avec l'extrême droite et proposé un débat de fond d'ici deux ou trois semaines. Gabriel Attal suggère de son côté deux débats et une primaire entre le 15 janvier et le 15 février.",
+          "tab": "presidentielle",
+          "title": "Édouard Philippe propose un débat télévisé à David Lisnard",
+          "url": "https://lcp.fr/actualites/presidentielle-2027-edouard-philippe-defie-david-lisnard-et-lui-propose-un-debat"
+        },
+        {
+          "image": "https://lcp.fr/sites/lcp.fr/files/styles/max_650x650/public/2024-09/Macron%202.jpg?itok=ZikaBhjE",
+          "publishedAt": "2026-11-25T12:32:00+01:00",
+          "source": "LCP",
+          "summary": "La CFDT et Gérard Larcher demandent de déplacer le scrutin, prévu le lendemain du 1er-Mai. Le porte-parole du gouvernement indique qu'aucun changement n'est prévu à ce stade ; la seule alternative évoquée serait un vote les 11 et 25 avril.",
+          "tab": "presidentielle",
+          "title": "Second tour le 2 mai : le gouvernement maintient la date malgré les critiques",
+          "url": "https://lcp.fr/actualites/presidentielle-2027-malgre-les-critiques-le-gouvernement-maintient-a-ce-stade-le-second"
+        },
+        {
+          "image": "https://lcp.fr/sites/lcp.fr/files/styles/max_650x650/public/2026-11/AFP__20220215__322F9UX__v1__HighRes__France2022ElectionsFeature.jpg?itok=NQ6VI0oZ",
+          "publishedAt": "2026-11-25T06:35:00+01:00",
+          "source": "LCP",
+          "summary": "Marine Le Pen revendique environ 400 signatures assurées, Éric Zemmour 350, Dominique de Villepin plus de 300 promesses et Teddy Riner plus d'une centaine. LFI dit avoir dépassé la moitié des 500 parrainages nécessaires.",
+          "tab": "presidentielle",
+          "title": "Parrainages : où en sont les candidats avant la date limite du 12 mars",
+          "url": "https://lcp.fr/actualites/presidentielle-2027-ou-en-sont-les-candidats-dans-leur-recolte-des-500-parrainages"
+        },
+        {
+          "image": "https://www.lechiquiersocial.com/wp-content/uploads/2026/11/commission-mixte-paritaire-budget-secu.png",
+          "publishedAt": "2026-11-25T18:00:00+01:00",
+          "source": "L'Échiquier social",
+          "summary": "Sept députés et sept sénateurs se réunissent le jour où expire le délai constitutionnel de 50 jours. Le Sénat a notamment rétabli l'indexation de toutes les pensions et la réforme des retraites de 2023 ; en cas d'échec, le gouvernement pourrait recourir au 49.3 ou aux ordonnances.",
+          "tab": "lois",
+          "tag": "Suivi",
+          "title": "Budget de la Sécu 2027 : commission mixte paritaire ce jeudi, un accord jugé improbable",
+          "url": "https://www.lechiquiersocial.com/budget-de-la-securite-sociale-2027-un-improbable-compromis-ce-jeudi-en-commission-mixte-paritaire/"
+        },
+        {
+          "image": "https://lcp.fr/sites/lcp.fr/files/styles/max_650x650/public/2025-09/palais-bourbon-paris%20%281%29_0.jpg?itok=b7jlgckc",
+          "publishedAt": "2026-11-24T20:56:00+01:00",
+          "source": "LCP",
+          "summary": "Le texte a été voté par le Sénat (231 voix contre 111) puis l'Assemblée (135 contre 64), sans 49.3. Il prévoit notamment 700 millions d'euros supplémentaires pour les armées et 223 millions pour les transporteurs, pêcheurs et agriculteurs ; l'objectif de déficit reste à 5,4 % du PIB.",
+          "tab": "lois",
+          "title": "Le Parlement adopte définitivement le budget de fin de gestion 2026",
+          "url": "https://lcp.fr/actualites/le-parlement-enterine-le-projet-de-loi-qui-procede-aux-derniers-ajustements-budgetaires"
+        },
+        {
+          "image": "https://lcp.fr/sites/lcp.fr/files/styles/max_650x650/public/2026-11/Steevy%20Gustave.jpg?itok=sRphzOP4",
+          "publishedAt": "2026-11-25T21:52:00+01:00",
+          "source": "LCP",
+          "summary": "Portée par l'écologiste Steevy Gustave, la proposition crée un comité chargé d'évaluer les préjudices et une instance sur les sommes dues à Haïti. Le RN et la Droite républicaine se sont abstenus ; le texte sera débattu en séance le 3 décembre.",
+          "tab": "lois",
+          "title": "Esclavage : la commission des lois adopte une proposition sur les réparations",
+          "url": "https://lcp.fr/actualites/esclavage-et-traite-negriere-les-deputes-font-un-premier-pas-vers-des-reparations"
+        },
+        {
+          "publishedAt": "2026-11-25T07:00:00+02:00",
+          "source": "The Kyiv Independent",
+          "summary": "Les dirigeants de l'UE se réunissent les 26 et 27 novembre. La Commission propose un prêt de 45 milliards d'euros pour 2027, mais la Hongrie, la Slovaquie, la Tchéquie et peut-être la Bulgarie refusent d'y participer, selon le média ukrainien Kyiv Independent.",
+          "tab": "international",
+          "title": "Sommet européen : les Vingt-Sept divisés sur le financement de l'Ukraine",
+          "url": "https://kyivindependent.com/days-before-key-summit-eu-countries-want-to-help-ukraine-but-cant-agree-on-how/"
+        },
+        {
+          "image": "https://assets.kyivindependent.com/content/images/2026/11/GettyImages-2305344994--1-_20261124-231802.jpg",
+          "publishedAt": "2026-11-25T09:57:00+02:00",
+          "source": "The Kyiv Independent",
+          "summary": "Selon des sources citées par le Kyiv Independent, les États-Unis proposent un mécanisme inspiré de l'article 5 de l'OTAN, sans présence militaire. Volodymyr Zelensky réclame des engagements écrits précisant qui défendrait l'Ukraine.",
+          "tab": "international",
+          "title": "Garanties de sécurité : Washington exclut troupes et bases américaines en Ukraine",
+          "url": "https://kyivindependent.com/exclusive-us-rules-out-troops-military-bases-in-ukraine-under-post-war-security-guarantees-falling-short-of-kyivs-expectations/"
+        },
+        {
+          "image": "https://assets.kyivindependent.com/content/images/2026/11/GettyImages-2244793677_20260610-190733_20261125-160256.jpg",
+          "publishedAt": "2026-11-25T18:13:00+02:00",
+          "source": "The Kyiv Independent",
+          "summary": "Après les incursions de missiles et drones russes des 23 et 24 novembre, Varsovie veut une zone de plus de 10 km d'ici début 2027 et demande à l'OTAN d'intercepter des missiles russes au-dessus de l'Ukraine. Aucune décision n'a été prise par l'Alliance.",
+          "tab": "international",
+          "title": "La Pologne prépare une zone d'exclusion aérienne à la frontière ukrainienne",
+          "url": "https://kyivindependent.com/poland-plans-no-fly-zone-near-ukraine-border-asks-nato-to-intercept-russian-missiles-over-ukraine/"
+        },
+        {
+          "image": "https://meduza.io/imgly/share/1795542526/en/feature/2026/11/24/andrey-chibis-spent-seven-years-consolidating-power-in-russia-s-arctic-murmansk-region-now-the-kremlin-loyalist-is-in-police-custody-on-charges-of-funneling-public-money-abroad",
+          "publishedAt": "2026-11-24T17:39:00+03:00",
+          "source": "Meduza",
+          "summary": "Andreï Tchibis a été interpellé le 23 novembre à l'aéroport de Moscou-Cheremetievo ; il est soupçonné d'avoir détourné un milliard de roubles destinés à une route. Selon Meduza, média russe indépendant en exil, c'est le premier gouverneur en exercice poursuivi depuis le début de la guerre.",
+          "tab": "international",
+          "title": "Russie : le gouverneur de Mourmansk arrêté pour fraude et détournement",
+          "url": "https://meduza.io/en/feature/2026/11/24/andrey-chibis-spent-seven-years-consolidating-power-in-russia-s-arctic-murmansk-region-now-the-kremlin-loyalist-is-in-police-custody-on-charges-of-funneling-public-money-abroad"
+        },
+        {
+          "image": "https://assets.kyivindependent.com/content/images/2024/10/GettyImages-1222402983.jpg",
+          "publishedAt": "2026-11-25T16:50:00+02:00",
+          "source": "The Kyiv Independent",
+          "summary": "L'état-major ukrainien affirme avoir frappé dans la nuit du 24 au 25 novembre trois MiG-31 et deux Su-34 dans la région de Nijni Novgorod. Le Kyiv Independent, média ukrainien, n'a pas pu vérifier l'ampleur des dégâts.",
+          "tab": "guerres",
+          "title": "Russie : cinq avions militaires touchés sur la base de Savasleyka",
+          "url": "https://kyivindependent.com/5-russian-aircraft-hit-at-airfield-in-russias-nizhny-novgorod-oblast-general-staff-says/"
+        },
+        {
+          "image": "https://meduza.io/imgly/share/1795594078/en/news/2026/11/25/ukrainian-drones-strike-russia-s-samara-region-killing-one-and-setting-two-rosneft-oil-refineries-ablaze",
+          "publishedAt": "2026-11-25T08:07:00+03:00",
+          "source": "Meduza",
+          "summary": "Le gouverneur de la région fait état d'un mort, de coupures de courant et de plus de 145 drones abattus. Les raffineries de Kouïbychev et de Syzran auraient été touchées, ce que l'état-major ukrainien a confirmé.",
+          "tab": "guerres",
+          "title": "Samara : deux raffineries de Rosneft visées par des drones ukrainiens, un mort",
+          "url": "https://meduza.io/en/news/2026/11/25/ukrainian-drones-strike-russia-s-samara-region-killing-one-and-setting-two-rosneft-oil-refineries-ablaze"
+        },
+        {
+          "image": "https://www.boursorama.com/static/i/content/images/6/4/6/6467205dff127e8d72a1f7717524b472-1200x800.jpg",
+          "publishedAt": "2026-11-26T03:24:00+01:00",
+          "source": "Boursorama (AFP)",
+          "summary": "Après des frappes saoudiennes sur Hodeïda, les rebelles ont revendiqué des tirs sur deux ports de la mer Rouge ; un projectile a causé des dégâts légers à Jazan. Dans la nuit, Riyad dit avoir intercepté deux missiles balistiques visant la capitale.",
+          "tab": "guerres",
+          "title": "Yémen : les Houthis visent les ports saoudiens de Djeddah et Jazan",
+          "url": "https://www.boursorama.com/actualite-economique/actualites/nouvelles-frappes-au-yemen-les-houthis-ciblent-des-ports-saoudiens-en-represailles-e4af1ff03ea4d299404f267921534053"
+        },
+        {
+          "image": "https://assets.kyivindependent.com/content/images/2026/11/GettyImages-2305967011_20261125-174454.jpg",
+          "publishedAt": "2026-11-25T19:47:00+02:00",
+          "source": "The Kyiv Independent",
+          "summary": "Le système Blysk, d'une puissance annoncée de 4 kW et d'une portée d'environ 1 km, a intercepté un Geran à réaction près d'une infrastructure critique. Le conseiller Serhiï Beskrestnov juge prématuré de parler de production en série.",
+          "tab": "guerres",
+          "title": "Ukraine : un laser abat pour la première fois un drone russe à réaction",
+          "url": "https://kyivindependent.com/ukrainian-combat-lasers-intercept-russian-jet-powered-drone-for-first-time/"
+        },
+        {
+          "image": "https://www.boursorama.com/static/i/content/images/e/4/6/e4663c7e89cd454c7757edf5d8dbc734-1200x800.jpg",
+          "publishedAt": "2026-11-25T22:39:00+01:00",
+          "source": "Boursorama",
+          "summary": "Le Nasdaq a cédé 0,62 % et le S&P 500 0,25 %, tandis que le Dow Jones a gagné 0,33 % après avoir effacé une forte baisse en séance. L'inflation PCE a accéléré à 3,8 % sur un an en octobre et la croissance du troisième trimestre a été révisée à 4,3 % en rythme annualisé.",
+          "tab": "economie",
+          "title": "Wall Street finit en ordre dispersé, Nvidia recule de 3,91 %",
+          "url": "https://www.boursorama.com/bourse/actualites/wall-street-termine-sans-direction-claire-la-tech-parvient-a-limiter-ses-pertes-6399cf03a38c1fd51e03f38aded0be22"
+        },
+        {
+          "publishedAt": "2026-11-25T18:08:00+01:00",
+          "source": "Boursorama (AFP)",
+          "summary": "L'indice parisien a perdu 0,75 % à 7 980,57 points, pénalisé par STMicroelectronics (-4,69 %) et Schneider Electric (-4,18 %). Rémy Cointreau a bondi de 13,13 % après ses ventes semestrielles et Bureau Veritas de 6,60 % sur des rumeurs de rachat.",
+          "tab": "economie",
+          "title": "Le CAC 40 repasse sous les 8 000 points, Rémy Cointreau s'envole de 13 %",
+          "url": "https://www.boursorama.com/bourse/actualites/la-bourse-de-paris-termine-en-baisse-entrainee-par-le-decrochage-de-wall-street-433969c54c4595bb9b96daa1793758d6"
+        },
+        {
+          "image": "https://images.euronews.com/articles/stories/10/00/80/92/1200x675_cmsv2_471b1804-5d7f-5ac1-95f8-9250c9a66a4f-10008092.jpg",
+          "publishedAt": "2026-11-25T15:43:00+01:00",
+          "source": "Euronews",
+          "summary": "Les produits européens seraient taxés à 15 %, et certains produits chinois à 20 % de plus. Une consultation pourrait repousser l'entrée en vigueur à janvier ; Bruxelles conteste être une source de surcapacités.",
+          "tab": "economie",
+          "title": "Washington propose de nouveaux droits de douane contre 14 partenaires, dont l'UE",
+          "url": "https://fr.euronews.com/2026/11/25/etats-unis-washington-propose-de-nouveaux-droits-de-douane-visant-14-partenaires-dont-lue"
+        },
+        {
+          "image": "https://lcp.fr/sites/lcp.fr/files/styles/max_650x650/public/2026-11/AFP__20250429__HL_FPETRY_2710735__v1__HighRes__FranceHuntingIllustration.jpg?itok=-C4vp1RH",
+          "publishedAt": "2026-11-25T11:36:00+01:00",
+          "source": "LCP",
+          "summary": "Déposée le 3 novembre par le militant Pierre Rigaux sur la plateforme de l'Assemblée, elle est renvoyée à la commission du développement durable. Un débat en séance n'est possible qu'au-delà de 500 000 signatures.",
+          "tab": "ecologie",
+          "title": "Chasse à courre : la pétition pour son abolition dépasse 100 000 signatures",
+          "url": "https://lcp.fr/actualites/interdiction-de-la-chasse-a-courre-une-petition-depasse-les-100000-signatures-verifiees"
+        },
+        {
+          "image": "https://reporterre.net/local/cache-vignettes/L700xH467/goupileouface-0c922.jpg?1795669200",
+          "publishedAt": "2026-11-26T06:00:00+01:00",
+          "source": "Reporterre",
+          "summary": "Les études s'accumulent pour montrer que l'abattage des renards, souvent justifié par la lutte sanitaire, n'aide pas et peut aggraver la situation. L'espèce reste classée susceptible d'occasionner des dégâts dans 91 départements pour 2026-2029.",
+          "tab": "ecologie",
+          "title": "Renard : des scientifiques jugent sa chasse inefficace contre les maladies",
+          "url": "https://reporterre.net/Pourquoi-la-chasse-au-renard-est-pire-qu-inutile"
+        },
+        {
+          "image": "https://reporterre.net/local/cache-vignettes/L700xH467/morus-bassanus_northern_gannet_1_-e4c21.jpg?1795633201",
+          "publishedAt": "2026-11-25T20:00:00+01:00",
+          "source": "Reporterre",
+          "summary": "Des chercheurs britanniques, notamment d'Oxford, équipent des oiseaux de mer de capteurs pour détecter les navires de pêche qui coupent leur balise AIS afin d'échapper aux contrôles.",
+          "tab": "ecologie",
+          "title": "Des oiseaux marins équipés de capteurs pour repérer les pêcheurs fantômes",
+          "url": "https://reporterre.net/Des-oiseaux-equipes-de-capteurs-pour-debusquer-les-navires-de-peche"
+        },
+        {
+          "image": "https://reporterre.net/local/cache-vignettes/L700xH467/maite_baldi__reporterre_chevres_sauvages_marseille-12-354ee.jpg?1795613401",
+          "publishedAt": "2026-11-25T14:30:00+01:00",
+          "source": "Reporterre",
+          "summary": "Entre 1 000 et 2 000 chèvres vivent à proximité des habitations. Plutôt que de les abattre, quatre communes les ont confiées à des bergers en écopâturage.",
+          "tab": "ecologie",
+          "title": "Près de Marseille, quatre communes renoncent à abattre les chèvres sauvages",
+          "url": "https://reporterre.net/Son-fusil-etait-charge-mais-on-a-dit-pas-question-ces-villes-cohabitent-avec-les-chevres"
+        },
+        {
+          "publishedAt": "2026-11-25T06:00:00+01:00",
+          "source": "Reporterre",
+          "summary": "Un rapport de l'association Communication et démocratie chiffre en milliards d'euros les dépenses publicitaires consacrées à des produits nocifs pour l'environnement ou la santé, et relance le débat sur leur encadrement.",
+          "tab": "ecologie",
+          "title": "Malbouffe, SUV, fast-fashion : des milliards d'euros de publicité chaque année",
+          "url": "https://reporterre.net/Interdire-la-publicite-pour-les-produits-polluants-mission-impossible"
+        },
+        {
+          "image": "https://next.ink/wp-content/uploads/2026/11/harmonyOS-7-1024x535.jpg",
+          "publishedAt": "2026-11-25T17:21:00+01:00",
+          "source": "Next",
+          "summary": "Le tribunal de Brooklyn retient 10 chefs d'accusation sur 12, dont le complot de vol de secrets commerciaux, mais écarte celui d'entreprise criminelle organisée ; la peine sera prononcée en septembre 2027. Huawei revendique par ailleurs plus de 100 millions d'appareils sous HarmonyOS.",
+          "tab": "tech",
+          "title": "Huawei reconnu coupable de fraude bancaire par un jury américain",
+          "url": "https://next.ink/270049/huawei-harmonyos-depasse-les-100-millions-dappareils-et-devance-ios-en-chine/"
+        },
+        {
+          "image": "https://next.ink/wp-content/uploads/2024/02/CIA-1024x496.jpg",
+          "publishedAt": "2026-11-25T08:13:00+01:00",
+          "source": "Next",
+          "summary": "Selon le New York Times, des informations non classifiées issues d'un outil de renseignement en sources ouvertes ont été exposées. L'auteur et l'ampleur de l'attaque restent inconnus.",
+          "tab": "tech",
+          "title": "Un système de la CIA et du renseignement américain victime d'une intrusion",
+          "url": "https://next.ink/brief-article/un-systeme-de-la-cia-et-du-renseignement-americain-victime-dune-intrusion/"
+        },
+        {
+          "image": "https://next.ink/wp-content/uploads/2024/01/Pigeon-1024x496.webp",
+          "publishedAt": "2026-11-25T08:53:00+01:00",
+          "source": "Next",
+          "summary": "À partir du 9 décembre, la plateforme refusera ces titres, qui représentent 43 % des livraisons des 90 derniers jours. 96 % des morceaux étiquetés IA n'ont eu aucune écoute en trois mois.",
+          "tab": "tech",
+          "title": "Tidal va retirer les morceaux entièrement générés par IA",
+          "url": "https://next.ink/269736/tidal-interdit-les-morceaux-entierement-generes-par-ia/"
+        },
+        {
+          "image": "https://next.ink/wp-content/uploads/2026/07/Reseaux-sociaux-mineurs-1024x495.webp",
+          "publishedAt": "2026-11-25T15:03:00+01:00",
+          "source": "Next",
+          "summary": "Selon le Financial Times, la Commission juge insuffisantes leurs propositions de vérification de l'âge. Les amendes peuvent atteindre 6 % du chiffre d'affaires mondial.",
+          "tab": "tech",
+          "title": "DSA : Bruxelles pourrait sanctionner Pornhub, Stripchat, XNXX et XVideos",
+          "url": "https://next.ink/brief-article/bruxelles-pourrait-sanctionner-quatre-geants-du-porno-pour-avoir-mal-protege-les-mineurs/"
+        },
+        {
+          "image": "https://next.ink/wp-content/uploads/2025/08/Openai2-1024x496.webp",
+          "publishedAt": "2026-11-25T09:19:00+01:00",
+          "source": "Next",
+          "summary": "L'outil libre, en préversion, fait générer par l'agent Codex des protections eBPF temporaires, validées par un humain. Il exige un noyau modifié et une puce TPM 2.0, et ses performances restent à démontrer.",
+          "tab": "tech",
+          "title": "Shirudo : OpenAI et Cisco protègent Linux en attendant les correctifs",
+          "url": "https://next.ink/269700/avec-shirudo-openai-et-cisco-veulent-proteger-linux-en-attendant-les-correctifs/"
+        },
+        {
+          "image": "https://next.ink/wp-content/uploads/2026/08/gta6-8-1024x576.jpg",
+          "publishedAt": "2026-11-24T17:42:00+01:00",
+          "source": "Next",
+          "summary": "Une build Xbox de 209 Go a permis de lancer le jeu sur PC, avec de nombreux plantages ; le projet Leonida a fermé à la demande de Rockstar. NordVPN signale un faux kit de portage piégé.",
+          "tab": "tech",
+          "title": "GTA VI tourne déjà sur PC grâce à une version fuitée",
+          "url": "https://next.ink/269712/gta-vi-demarre-sur-pc-avant-meme-lannonce-dun-portage-officiel/"
+        },
+        {
+          "publishedAt": "2026-11-26T06:45:00+01:00",
+          "source": "Encyclopaedia Britannica",
+          "summary": "Contrairement à une idée répandue, elle n'est en général pas discernable depuis l'orbite basse : sa couleur proche du terrain et la pollution la rendent très difficile à distinguer, même depuis la Station spatiale internationale.",
+          "tab": "savoir",
+          "title": "La Grande Muraille de Chine n'est pas visible à l'oeil nu depuis l'espace",
+          "url": "https://www.britannica.com/question/Can-you-see-the-Great-Wall-of-China-from-space"
+        }
+      ]
+    },
     {
       "date": "2026-11-25",
       "items": [
